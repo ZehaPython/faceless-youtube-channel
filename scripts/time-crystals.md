@@ -8,13 +8,13 @@ Research: `research/time-crystals.md`.
 
 | Time | Section | Narration (Atlas) | Visual |
 |---|---|---|---|
-| 0:00–0:04 | **HOOK** | [whisper] This tiny crystal has a *heartbeat*... [normal] and physics said it was *impossible*. | `[SCENE: attic desk at night, lamp glow; glass dome with a pulsing crystal of light points; Atlas leans in, spectacles reflecting the glow]` `[TEXT: "This Crystal Repeats in Time"]` |
-| 0:04–0:12 | Setup | Normal crystals, like salt or diamond, repeat in *space*. Atom, atom, atom... over and over. | `[SCENE: Atlas sprinkles salt on the desk; zoom into a glowing cube lattice repeating outward]` |
-| 0:12–0:19 | Setup | In 2012, a Nobel-winning physicist asked: could something repeat in *time* instead? | `[SCENE: Atlas flips through his journal; a page shows the lattice pattern turning into a ticking rhythm]` `[TEXT: "2012"]` |
-| 0:19–0:26 | Conflict | Other physicists ran the math. Their answer? *No.* Not on its own. That would be... [slow] perpetual motion. | `[SCENE: chalkboard full of equations; a big red X; Comet the cat knocks the chalk off the desk]` |
+| 0:00–0:04 | **HOOK** | [whisper] This tiny crystal has a *heartbeat*... [normal] and physics said it was *impossible*. | `[SCENE: cabin observatory at night, lantern glow, Milky Way through the big window; a glass dome on the desk holds a pulsing crystal of light points; Atlas leans in, glasses reflecting the glow]` `[TEXT: "This Crystal Has a Heartbeat"]` |
+| 0:04–0:12 | Setup | Normal crystals, like salt or diamond, repeat in *space*. Atom, atom, atom... over and over. | `[SCENE: Atlas sprinkles salt onto a parchment star chart; zoom into a glowing cube lattice repeating outward]` |
+| 0:12–0:19 | Setup | In 2012, a Nobel-winning physicist asked: could something repeat in *time* instead? | `[SCENE: Atlas writes with his quill in the leather-bound star atlas; the sketched lattice on the page starts to pulse like a ticking rhythm]` `[TEXT: "2012"]` |
+| 0:19–0:26 | Conflict | Other physicists ran the math. Their answer? *No.* Not on its own. That would be... [slow] perpetual motion. | `[SCENE: a parchment covered in equations pinned to the timber wall; a big red X; Comet the cat knocks an inkpot over]` |
 | 0:26–0:37 | Twist | So scientists *cheated*. Just a little. They kicked atoms with lasers... tick, tick, tick. But the atoms didn't follow the beat. They flipped on every *second* kick. | `[SCENE: tiny atoms in a row lit by laser pulses; on each pulse a flash, but atoms flip teal to amber only every second flash]` `[SFX: soft ticks]` |
-| 0:37–0:45 | Payoff | And they don't heat up and wear out like normal matter. In 2021, Google built one inside a *quantum computer*. A whole new phase of matter. | `[SCENE: golden quantum chip glowing like a chandelier; then back to the dome, crystal pulsing steadily]` `[TEXT: "Solid · Liquid · Gas · Time crystal?"]` |
-| 0:45–0:55 | **OUTRO / next adventure** | [beat] Hang on... my watch just synced to its heartbeat. [whisper] And now it's pointing... *down*. To the bottom of the ocean, where something is making oxygen... in total darkness. [smile] Pack a sweater. | `[SCENE: Atlas's brass Wonder Watch pulses in time with the crystal, then its needle swings down; the floor fades into a deep blue ocean trench with faint glowing stones]` `[TEXT: "Next: Dark Oxygen"]` |
+| 0:37–0:45 | Payoff | And they don't heat up and wear out like normal matter. In 2021, Google built one inside a *quantum computer*. A whole new phase of matter. | `[SCENE: through the brass telescope's eyepiece, a golden quantum chip glowing like a chandelier; then back to the dome, crystal pulsing steadily]` `[TEXT: "Solid · Liquid · Gas · Time crystal?"]` |
+| 0:45–0:55 | **OUTRO / next adventure** | [beat] Hang on... my watch just synced to its heartbeat. [whisper] And now it's pointing... *down*. To the bottom of the ocean, where something is making oxygen... in total darkness. [smile] Pack a sweater. | `[SCENE: close-up: Atlas pulls the cracked brass Wonder Watch from his satchel; it glows in time with the crystal, then its hand swings down; the lake below the window fades into a deep blue ocean trench with faint glowing stones]` `[TEXT: "Next: Dark Oxygen"]` |
 
 **Narration word count:** ~140 words, about 56 s at 150 wpm (the hook and outro pauses are included in the timing).
 
@@ -52,4 +52,4 @@ Research: `research/time-crystals.md`.
 
 ## Cover / first frame
 
-Matches `production/time-crystals/preview/prompt-v1.md`, plus Atlas leaning toward the dome once the character is approved.
+See `production/time-crystals/preview/prompt-v2.md`: Atlas leaning toward the glowing dome in the cabin observatory.

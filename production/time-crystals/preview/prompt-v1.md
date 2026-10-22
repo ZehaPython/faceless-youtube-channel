@@ -1,5 +1,7 @@
 # time-crystals: opening shot (v1)
 
+> **Superseded by `prompt-v2.md`.** v1 used the old lo-fi anime style and had no character.
+
 Made by hand on the Higgsfield website (Kling 3.0, text-to-video). No research brief or script yet, so this is an
 early style and hook test. The full pipeline (research, then script) still applies before the full Short.
 
