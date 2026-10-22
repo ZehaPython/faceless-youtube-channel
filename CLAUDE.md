@@ -7,11 +7,12 @@ This file gives Claude the context for this project. Read it at the start of eve
 We are building a **faceless YouTube channel**: videos made without the creator on camera. They are built from voiceover, stock footage or B-roll, motion graphics, AI-generated visuals, and on-screen text.
 
 - **Channel name:** _TBD_
-- **Niche / topic:** _TBD_
+- **Niche / topic:** _TBD_ (leaning science explainers; see `ideas/backlog.md`)
 - **Target audience:** _TBD (age, interests, what they want from the channel)_
-- **Video formats:** _TBD (e.g. 8–12 min long-form, Shorts under 60s, or both)_
+- **Video formats:** YouTube Shorts only (vertical 9:16, under 60s)
 - **Publishing cadence:** _TBD (e.g. 2 long-form + 5 Shorts per week)_
 - **Tone & voice:** _TBD (e.g. calm and authoritative, energetic, documentary-style)_
+- **Visual style:** flat 2D animation. See `channel/style-guide.md`.
 
 > Fill in the TBD fields as decisions are made. They steer every sub-agent.
 
@@ -38,8 +39,10 @@ Every video moves through three stages. Each stage has a dedicated sub-agent, an
 - Proposes 3–5 title options and a thumbnail concept.
 - **Output:** `scripts/<video-slug>.md`.
 
-### 3. Content creation agent
-- Turns the script into production assets: a voiceover-ready script, a shot list and B-roll list, on-screen text, a thumbnail brief, the description, tags, and chapters.
+### 3. Content creation agent (`.claude/agents/content-creator.md`)
+- **Phase 1:** makes a **first-frame preview** (`production/<slug>/preview/first-frame-vN.png`) and STOPS.
+- **Approval gate:** show the preview to the creator. Only when they explicitly approve, write `Preview approved: yes` in `production/<slug>/STATUS.md`. If they give feedback, write `Preview approved: no` plus the feedback and run Phase 1 again.
+- **Phase 2:** turns the script into a production kit: scene images, voiceover script, shot list, captions, upload text, and a rights log.
 - **Output:** a folder at `production/<video-slug>/`.
 
 ## Folder structure
@@ -74,16 +77,15 @@ Every video moves through three stages. Each stage has a dedicated sub-agent, an
 
 ## Tools & stack
 
-_TBD. List the tools as they are chosen, for example:_
-- Voiceover: _e.g. ElevenLabs_
-- Editing: _e.g. CapCut, DaVinci Resolve_
-- Stock footage: _e.g. Pexels, Storyblocks_
-- Thumbnails: _e.g. Canva, Photoshop_
-- Keyword research: _e.g. vidIQ, TubeBuddy_
+- Image and video generation: **Higgsfield** (connector). Fallback: SVG frames rendered with `tools/render_frame.py`
+- Voiceover: _TBD_
+- Editing: _TBD (e.g. CapCut)_
+- Channel analysis: `tools/channel_analysis.py`, `tools/fetch_titles.py`, `tools/topic_gaps.py` (yt-dlp)
 
 ## How Claude should work in this project
 
 - Follow the pipeline in order. Don't write a script without a research brief, and don't make production assets without an approved script.
+- **Never produce a video kit without an approved first-frame preview.** Always show the preview image to the creator and wait for an explicit yes.
 - Save every output to the right folder using the video slug.
 - When a decision belongs to the creator (niche, tone, title choice), offer options with a recommendation and ask.
 - Keep `ideas/backlog.md` updated as new ideas come up.
