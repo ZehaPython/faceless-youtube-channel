@@ -47,16 +47,28 @@ def channel_url(arg, tab):
 
 
 def list_entries(url):
-    opts = {"extract_flat": "in_playlist", "quiet": True, "skip_download": True}
+    # approximate_date turns "3 months ago" into a rough timestamp, used to stop
+    # paging once we are past the window.
+    opts = {"extract_flat": "in_playlist", "quiet": True, "skip_download": True,
+            "extractor_args": {"youtubetab": {"approximate_date": [""]}}}
     with yt_dlp.YoutubeDL(opts) as ydl:
         info = ydl.extract_info(url, download=False)
-    return info.get("entries") or []
+    return info, info.get("entries") or []
 
 
 def video_details(video_id):
-    opts = {"quiet": True, "skip_download": True, "noplaylist": True}
-    with yt_dlp.YoutubeDL(opts) as ydl:
-        return ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=False)
+    # The default clients hit YouTube's "confirm you're not a bot" wall from cloud
+    # IPs. The embedded-player client still returns exact date and view count;
+    # we never download, so missing formats are fine.
+    opts = {"quiet": True, "no_warnings": True, "skip_download": True, "noplaylist": True,
+            "ignore_no_formats_error": True,
+            "extractor_args": {"youtube": {"player_client": ["web_embedded"]}}}
+    try:
+        with yt_dlp.YoutubeDL(opts) as ydl:
+            info = ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=False)
+        return info if info.get("upload_date") else None
+    except yt_dlp.utils.DownloadError:
+        return None
 
 
 def collect(channel, months, include_shorts):
@@ -64,23 +76,34 @@ def collect(channel, months, include_shorts):
     tabs = ["videos"] + (["shorts"] if include_shorts else [])
     videos, subscribers, channel_name = [], None, None
     for tab in tabs:
-        # Tabs are newest-first, so stop at the first video older than the cutoff.
-        for entry in list_entries(channel_url(channel, tab)):
-            info = video_details(entry["id"])
-            uploaded = datetime.strptime(info["upload_date"], "%Y%m%d")
-            if uploaded < cutoff:
+        tab_info, entries = list_entries(channel_url(channel, tab))
+        subscribers = subscribers or tab_info.get("channel_follower_count")
+        channel_name = channel_name or tab_info.get("channel")
+        for entry in entries:
+            approx = datetime.fromtimestamp(entry["timestamp"]) if entry.get("timestamp") else None
+            # Relative dates are coarse ("1 year ago"), so keep a 60-day margin.
+            if approx and approx < cutoff - timedelta(days=60):
                 break
-            subscribers = subscribers or info.get("channel_follower_count")
-            channel_name = channel_name or info.get("channel")
+            info = video_details(entry["id"])
+            if info:
+                uploaded, exact = datetime.strptime(info["upload_date"], "%Y%m%d"), True
+            elif approx:
+                info, uploaded, exact = entry, approx, False
+            else:
+                continue
+            if uploaded < cutoff:
+                continue
             videos.append({
                 "title": info["title"],
-                "views": info.get("view_count") or 0,
+                "views": info.get("view_count") or entry.get("view_count") or 0,
                 "upload_date": uploaded.date().isoformat(),
-                "duration_sec": info.get("duration") or 0,
+                "date_exact": exact,
+                "duration_sec": int(info.get("duration") or entry.get("duration") or 0),
                 "format": "short" if tab == "shorts" else "long",
-                "url": info.get("webpage_url"),
+                "url": f"https://www.youtube.com/watch?v={entry['id']}",
             })
-            print(f"  {uploaded.date()}  {info.get('view_count', 0):>12,}  {info['title']}", file=sys.stderr)
+            print(f"  {uploaded.date()}{'' if exact else '~'}  {videos[-1]['views']:>12,}  {info['title']}",
+                  file=sys.stderr)
     return channel_name, subscribers, sorted(videos, key=lambda v: v["upload_date"], reverse=True)
 
 
@@ -111,31 +134,39 @@ def cadence(videos):
 def report(channel_name, subscribers, videos, months):
     lines = [f"# Channel analysis: {channel_name}", "",
              f"_Generated {datetime.now():%Y-%m-%d} with yt-dlp. Window: last {months} months._", ""]
-    views = [v["views"] for v in videos]
-    lines += ["## Summary", "",
-              f"- **Subscribers:** {subscribers:,}" if subscribers else "- **Subscribers:** unavailable (hidden)",
-              f"- **Videos in window:** {len(videos)}",
-              f"- **Average views per video:** {statistics.mean(views):,.0f}",
-              f"- **Median views per video:** {statistics.median(views):,.0f}",
-              f"- **Total views (window):** {sum(views):,}", ""]
+    lines += [f"- **Subscribers:** {subscribers:,}" if subscribers else "- **Subscribers:** unavailable (hidden)", ""]
 
-    baseline, patterns = title_patterns(videos)
-    lines += ["## Title patterns vs baseline", "",
-              f"Baseline = median views across all {len(videos)} videos = **{baseline:,.0f}**. "
-              f"Patterns need at least {MIN_MATCHES} matching videos. With small samples, treat these as hints, not proof.", "",
-              "| Pattern | Videos | Median views | Extra views vs baseline | Uplift |",
-              "|---|---:|---:|---:|---:|"]
-    lines += [f"| {n} | {c} | {m:,.0f} | {d:+,.0f} | {u:+.0%} |" for n, c, m, d, u in patterns]
+    # Shorts and long-form perform very differently, so analyze each on its own.
+    groups = [(label, [v for v in videos if v["format"] == fmt])
+              for fmt, label in (("long", "Long-form videos"), ("short", "Shorts"))]
+    for label, group in groups:
+        if not group:
+            continue
+        views = [v["views"] for v in group]
+        lines += [f"## {label}", "",
+                  f"- **Videos in window:** {len(group)}",
+                  f"- **Average views per video:** {statistics.mean(views):,.0f}",
+                  f"- **Median views per video:** {statistics.median(views):,.0f}",
+                  f"- **Total views (window):** {sum(views):,}", ""]
 
-    top = sorted(videos, key=lambda v: v["views"], reverse=True)[:max(5, len(videos) // 4)]
-    lines += ["", f"### Top performers (top {len(top)})", "",
-              "| Views | Title | Patterns matched |", "|---:|---|---|"]
-    for v in top:
-        matched = ", ".join(n for n, t in PATTERNS.items() if t(v["title"])) or "none"
-        lines.append(f"| {v['views']:,} | {v['title']} | {matched} |")
+        baseline, patterns = title_patterns(group)
+        lines += [f"### Title patterns vs baseline ({label.lower()})", "",
+                  f"Baseline = median views across these {len(group)} videos = **{baseline:,.0f}**. "
+                  f"Patterns need at least {MIN_MATCHES} matching videos. With small samples, treat these as hints, not proof.", "",
+                  "| Pattern | Videos | Median views | Extra views vs baseline | Uplift |",
+                  "|---|---:|---:|---:|---:|"]
+        lines += [f"| {n} | {c} | {m:,.0f} | {d:+,.0f} | {u:+.0%} |" for n, c, m, d, u in patterns]
+
+        top = sorted(group, key=lambda v: v["views"], reverse=True)[:max(5, len(group) // 4)]
+        lines += ["", f"### Top performers (top {len(top)} {label.lower()})", "",
+                  "| Views | Title | Patterns matched |", "|---:|---|---|"]
+        for v in top:
+            matched = ", ".join(n for n, t in PATTERNS.items() if t(v["title"])) or "none"
+            lines.append(f"| {v['views']:,} | {v['title']} | {matched} |")
+        lines.append("")
 
     gaps, per_month, weekdays = cadence(videos)
-    lines += ["", "## Upload cadence", ""]
+    lines += ["## Upload cadence (all formats)", ""]
     if gaps:
         lines += [f"- **Average gap between uploads:** {statistics.mean(gaps):.1f} days "
                   f"(median {statistics.median(gaps):.0f}, range {min(gaps)}–{max(gaps)})",
@@ -144,8 +175,8 @@ def report(channel_name, subscribers, videos, months):
               "| Month | Uploads |", "|---|---:|"]
     lines += [f"| {m} | {c} |" for m, c in sorted(per_month.items())]
 
-    lines += ["", "## All videos", "", "| Date | Views | Duration | Title |", "|---|---:|---:|---|"]
-    lines += [f"| {v['upload_date']} | {v['views']:,} | {fmt_duration(v['duration_sec'])} | {v['title']} |"
+    lines += ["", "## All videos", "", "| Date | Format | Views | Duration | Title |", "|---|---|---:|---:|---|"]
+    lines += [f"| {v['upload_date']} | {v['format']} | {v['views']:,} | {fmt_duration(v['duration_sec'])} | {v['title']} |"
               for v in videos]
     return "\n".join(lines) + "\n"
 
@@ -156,10 +187,17 @@ def main():
     p.add_argument("--months", type=int, default=12)
     p.add_argument("--include-shorts", action="store_true")
     p.add_argument("--out", default="research/channels", help="Output directory")
+    p.add_argument("--from-csv", help="Rebuild the report from an earlier videos.csv instead of fetching")
+    p.add_argument("--subscribers", type=int, help="Subscriber count to use with --from-csv")
     args = p.parse_args()
 
-    print(f"Fetching {args.channel} ...", file=sys.stderr)
-    channel_name, subscribers, videos = collect(args.channel, args.months, args.include_shorts)
+    if args.from_csv:
+        with open(args.from_csv, encoding="utf-8") as f:
+            videos = [{**r, "views": int(r["views"]), "duration_sec": int(r["duration_sec"])} for r in csv.DictReader(f)]
+        channel_name, subscribers = args.channel, args.subscribers
+    else:
+        print(f"Fetching {args.channel} ...", file=sys.stderr)
+        channel_name, subscribers, videos = collect(args.channel, args.months, args.include_shorts)
     if not videos:
         sys.exit("No videos found in the window.")
 
