@@ -12,7 +12,7 @@ We are building a **faceless YouTube channel**: videos made without the creator 
 - **Video formats:** YouTube Shorts only (vertical 9:16, under 60s)
 - **Publishing cadence:** _TBD (e.g. 2 long-form + 5 Shorts per week)_
 - **Tone & voice:** _TBD (e.g. calm and authoritative, energetic, documentary-style)_
-- **Visual style:** flat 2D animation. See `channel/style-guide.md`.
+- **Visual style:** cozy lo-fi anime illustration (warm lamp light, night scenes, muted colours). See `channel/style-guide.md`.
 
 > Fill in the TBD fields as decisions are made. They steer every sub-agent.
 
@@ -77,7 +77,7 @@ Every video moves through three stages. Each stage has a dedicated sub-agent, an
 
 ## Tools & stack
 
-- Image and video generation: **Higgsfield** (connector). Fallback: SVG frames rendered with `tools/render_frame.py`
+- Image and video generation: **Higgsfield** (connector). Fallback: layout sketches only, rendered with `tools/render_frame.py`
 - Voiceover: _TBD_
 - Editing: _TBD (e.g. CapCut)_
 - Channel analysis: `tools/channel_analysis.py`, `tools/fetch_titles.py`, `tools/topic_gaps.py` (yt-dlp)
