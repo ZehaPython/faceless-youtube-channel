@@ -30,15 +30,12 @@ ARGUMENTS = {
 
 
 def find_video_url(result):
-    """Return the video URL from a completed result, or None."""
+    """Return the video URL from a completed result, or None.
+
+    Per the Seedance 2.5 docs, a completed response carries {"video": {"url": ...}}.
+    """
     video = result.get("video")
-    if isinstance(video, dict) and video.get("url"):
-        return video["url"]
-    for key in ("videos", "outputs"):
-        items = result.get(key)
-        if isinstance(items, list) and items and isinstance(items[0], dict) and items[0].get("url"):
-            return items[0]["url"]
-    return None
+    return video.get("url") if isinstance(video, dict) else None
 
 
 def main():
@@ -65,7 +62,7 @@ def main():
     if status == "nsfw":
         sys.exit("FAILED: the request was blocked by content moderation (nsfw). No video was produced.")
     if status == "failed":
-        sys.exit(f"FAILED: generation failed. Details: {result.get('error') or result.get('detail') or 'none given'}")
+        sys.exit(f"FAILED: generation failed. Details: {result.get('error') or 'none given'}")
     if status == "canceled":
         sys.exit("FAILED: the request was canceled. No video was produced.")
     if status != "completed":
