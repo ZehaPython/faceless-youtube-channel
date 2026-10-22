@@ -48,7 +48,7 @@ Muted, warm and slightly desaturated, like an old poster under a lamp.
 
 Rule: about 60% cool shadow tones, 30% mid tones, and 10% warm light. The warm light is what pulls the eye.
 
-## Our recurring character: TBD
+## Our recurring character: Atlas (proposal, see `channel/character.md`)
 
 The channel needs **one original host character** who appears in every Short, studying, wondering and discovering.
 Design them once, write the description here, and reuse it word for word in every prompt for consistency.
