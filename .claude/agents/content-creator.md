@@ -35,11 +35,17 @@ Goal: one still image showing exactly how the Short will look at 0:00. It is als
    - hook text (max 6 words) and the word to highlight
    - follow the style guide's "first frame" rules and safe zones
 2. **Make the image**, 1080 × 1920:
-   - **Use Higgsfield** (tool names containing `higgsfield`). Generate the illustration with the style guide's
-     prompt base + the recurring character description + the scene, at 9:16, with **no text in the image**.
-     Save it as `production/<slug>/preview/first-frame-vN-art.png`. Then add the hook text on top with an SVG or HTML
-     overlay rendered by `python tools/render_frame.py` (the art as background image, the text in the style guide's font
-     treatment).
+   - **Use Higgsfield.** Recommended models for this style: `nano_banana_pro` (accepts reference images, keeps the
+     character consistent) or `flux_2` (close prompt adherence). Avoid the `soul_*` models, which are made for realistic photos.
+     Prompt = the style guide's prompt base + the recurring character description + the scene. Aspect ratio 9:16,
+     with **no text in the image**.
+     - **If a Higgsfield generate tool is available** (for example `generate_image`): generate the image directly.
+     - **If only the read tools are available** (`show_generations`, `balance`, …): write the exact prompt, model and
+       settings to `production/<slug>/preview/prompt-vN.md`, then STOP and ask the creator to paste it into Higgsfield
+       and say when it's done. On the next run, use `show_generations` to find the newest matching image and download it.
+     - Save the art as `production/<slug>/preview/first-frame-vN-art.png`. Then add the hook text on top with an SVG or
+       HTML overlay rendered by `python tools/render_frame.py` (the art as background image, the text in the style guide's
+       font treatment).
    - **If Higgsfield is not available:** do not fake the style. Make a **layout sketch** only (SVG rendered with
      `tools/render_frame.py`) showing subject placement, light source and hook text, saved as
      `first-frame-vN-sketch.png`. Say clearly in your return message that it is a sketch and that the real preview
