@@ -5,7 +5,7 @@
 | Brain-computer interfaces: people are already typing with their thoughts. What comes next? | brain-computer-interfaces | Idea | Topic gap: no competitor titles. Source: research/channels/kurzgesagt-in-a-nutshell/topic-gaps.md |
 | The glymphatic system: your brain power-washes itself every night | glymphatic-system | Idea | Topic gap. Pairs with sleep content |
 | Senolytics and "zombie cells": the cells that drive aging, and drugs that kill them | zombie-cells-senolytics | Idea | Topic gap |
-| "Dark oxygen": metal nodules on the sea floor making oxygen without light | dark-oxygen | Scripting | Episode 2. First thriller-format episode, stand-alone with wow facts |
+| "Dark oxygen": metal nodules on the sea floor making oxygen without light | dark-oxygen | Preview | Episode 2. First thriller-format episode, stand-alone with wow facts |
 | Peak phosphorus: the element every farm needs, which can't be replaced | peak-phosphorus | Idea | Topic gap |
 | Time crystals: matter that repeats in time instead of space | time-crystals | Review | Topic gap. Hard physics; needs a simple angle |
 | Lucid dreaming: can you control your dreams, and what is the brain doing? | lucid-dreaming | Idea | Topic gap |
