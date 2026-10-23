@@ -19,7 +19,7 @@ After Dark Oxygen the channel pivots to well-known space topics (big search dema
 
 | # | Idea | Slug | Status | Atlas's danger / hook |
 |---|------|------|--------|------|
-| 3 | Supernovae: the explosion that made the oxygen in your lungs | supernova | Idea | Atlas lands on a planet orbiting a star seconds from exploding |
+| 3 | Supernovae: the explosion that made the oxygen in your lungs | supernova | Paused (creator: set up YouTube first) | Atlas lands on a planet orbiting a star seconds from exploding |
 | 4 | Neutron stars and magnetars: a teaspoon weighs a mountain | neutron-stars | Idea | The gravity and magnetism nearly rip Atlas's gear apart |
 | 5 | Black holes: what happens if you fall in? | black-holes | Idea | Spaghettification danger; time slows down for him |
 | 6 | Dark matter: 85% of matter is missing | dark-matter | Idea | Atlas can't see or touch the thing holding the galaxy together |
