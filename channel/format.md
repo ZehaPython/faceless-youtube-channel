@@ -5,6 +5,19 @@
 Episode 1 was cozy and calm: Atlas mostly *watched* things from his desk. From Episode 2, Atlas **goes there**.
 Each Short is a mini-adventure with danger, a mystery and a cliffhanger. The cozy cabin is home base, not the whole show.
 
+## Rule 0: one common thread
+
+Before writing anything, define **one sentence** that ties the whole episode together, and make it personal for Atlas.
+Example (Dark Oxygen): *"Atlas is running out of oxygen, in the one place where rocks might be making it."*
+
+- Every line must serve that thread. If a beat doesn't, cut it, even if it's interesting.
+- Write the episode as a **chain of questions**: each beat answers the previous question and raises the next one.
+  List them in the script before the narration.
+- Give the thread a **visible tracker** on screen (e.g. an oxygen gauge that keeps dropping, a countdown, a
+  temperature dial) that appears in several shots. It's the ticking clock.
+- Atlas's danger should be the **same thing as the topic** (no oxygen in an oxygen episode, crushing gravity in a
+  black-hole episode), so the story and the science pull in the same direction.
+
 ## The 10 rules
 
 1. **Cold open in danger (0–2 s).** Start mid-action: something is wrong *right now* (a cracking diving bell,
