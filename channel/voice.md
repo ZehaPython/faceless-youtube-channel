@@ -29,7 +29,7 @@ Seed Speech, Vibe Voice, Cozy Voice), **Qwen Audio 3.0 TTS** and **Seed Audio 1.
 website. The public API docs (2026-10-23) list no speech models, so the voiceover is made on the website for now.
 
 1. Open a text-to-speech model (start with Eleven v4 or Text to Speech V2 → ElevenLabs engine).
-2. Browse the **preset** voices and pick a warm, deep, mature male voice that fits the attributes below.
+2. Browse the **preset** voices and pick a warm, deep, mature male voice that fits the attributes above.
 3. Paste the voiceover text from `scripts/<slug>.md` and generate. Note the voice ID here so every episode uses the same voice.
 4. Never use the "reference element" (voice cloning) option with a recording of a real person.
 
