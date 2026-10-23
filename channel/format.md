@@ -3,7 +3,8 @@
 **Status: proposal (from creator feedback on Episode 1: "good but a little dull").**
 
 Episode 1 was cozy and calm: Atlas mostly *watched* things from his desk. From Episode 2, Atlas **goes there**.
-Each Short is a mini-adventure with danger, a mystery and a cliffhanger. The cozy cabin is home base, not the whole show.
+Each Short is a **stand-alone** mini-adventure with danger, a mystery and lots of wow facts. Viewers meet each Short
+randomly in the feed, so no episode depends on another. The cozy cabin is home base, not the whole show.
 
 ## Rule 0: one common thread
 
@@ -22,7 +23,7 @@ Example (Dark Oxygen): *"Atlas is running out of oxygen, in the one place where 
 
 1. **Cold open in danger (0–2 s).** Start mid-action: something is wrong *right now* (a cracking diving bell,
    a star about to blow, gravity pulling him in). No "hello", no setup. Motion and sound in the first frame.
-2. **Atlas is in the scene, not at his desk.** The Wonder Watch **teleports** him to each destination. He wears
+2. **Atlas is in the scene, not at his desk.** He simply *is* there (no travel explanation needed). He wears
    gear that fits the place (a brass diving helmet, a patched space suit) over his cardigan and scarf.
 3. **Real stakes for Atlas.** Every episode puts him at risk: oxygen running out, crushing pressure, radiation,
    tidal forces. The danger comes from the real science of the place.
@@ -37,24 +38,21 @@ Example (Dark Oxygen): *"Atlas is running out of oxygen, in the one place where 
 8. **Big reactions.** Atlas gasps, panics, grins, ducks. Expressions are part of the story, not just a calm smile.
 9. **Comet the stowaway.** The cat sneaks along in the satchel and pops out once per episode for a 1-second
    comedy beat. It's a pattern interrupt and a fan favourite in the making.
-10. **Cliffhanger with stakes, not just a destination.** End on danger or a question the next episode answers.
-    Keep "Pack a sweater" as the sign-off, and twist it to the next place ("...actually, pack a helmet").
-
+10. **Loop ending, no "next episode".** Resolve Atlas's danger, land the biggest wow fact, then end on a line that
+    flows back into the hook (e.g. "...Maybe..." → "These rocks are making oxygen"). Rewatches count toward retention.
 11. **3–4 wow facts per episode.** Facts people didn't know, that make them say "wait, really?" (e.g. "half your
     oxygen comes from the ocean", "you're two-thirds oxygen"). Each must serve the common thread, be verified in the
     research brief, and appear on screen as a **fact pop**: a big gold number plus a short parchment label.
     Spread them out: one in the first 10 s, one at the twist, one at the end.
 
-## Season 1 arc: "The Countdown" (option)
+## Series identity without cliffhangers
 
-The Wonder Watch has a second dial that is **counting down**. Each episode Atlas learns a little more:
-it points him at places where the universe "breaks the rules", and the countdown is getting shorter.
-The reveal comes at the end of the season (e.g. it's counting down to a star going supernova).
-The arc is **clearly fiction**; the science in each episode stays real and sourced.
+The series is held together by **Atlas, the look, Comet and the voice**, not by a plot across episodes.
+(The Wonder Watch and the "next episode" outro were dropped after Episode 1, by creator decision.)
 
 ## Accuracy guardrails (unchanged)
 
-- Drama comes from the *story* (Atlas's danger, the countdown), never from exaggerating the science.
+- Drama comes from the *story* (Atlas's danger), never from exaggerating the science.
 - Say "scientists think", "a 2024 study found", or "it's disputed" when that's the truth.
 - Real controversies are great material, but present both sides fairly.
 

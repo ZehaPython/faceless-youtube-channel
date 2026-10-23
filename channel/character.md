@@ -38,23 +38,16 @@ night-time adventures into a corner of science.
 | Mug | navy enamel camping mug with a white pine-tree pattern, steaming |
 | Lanterns | small brass oil lanterns with warm flickering flames |
 | Satchel | worn brown leather satchel across his body |
-| **Wonder Watch** | old brass pocket watch with a cracked glass face (see below) |
 
-## The Wonder Watch (series device)
 
-An old **brass pocket watch** with a cracked glass face, inherited and unexplained. It doesn't just tell time:
-at the end of each episode it **ticks, glows and points somewhere new**, and that is the next adventure.
+## The Wonder Watch (retired)
 
-- It links every Short into one continuous journey ("Episode 2 is where the watch pointed").
-- It gives each outro a built-in cliffhanger, which encourages people to follow the channel.
-- Its secrets can be revealed slowly over the series. The watch itself is a long-running mystery.
-- He keeps it in his satchel or cardigan pocket. It hasn't appeared in the reference image yet, so introduce it
-  with a clear close-up in Episode 1.
+Used in Episode 1 only. Dropped from Episode 2 on: Shorts are watched out of order, so a cross-episode device
+doesn't pay off. Don't use it in new episodes unless the creator brings it back.
 
-## Adventures: the watch takes him there
+## Adventures: Atlas goes there
 
-From Episode 2, the Wonder Watch **teleports** Atlas to each destination (see `channel/format.md`).
-He keeps his cardigan and scarf and adds gear for the place:
+From Episode 2, Atlas is simply on location in each Short (see `channel/format.md`). He keeps his cardigan and scarf and adds gear for the place:
 
 | Gear | Description (use in prompts) | First episode |
 |---|---|---|
@@ -73,9 +66,8 @@ A sleepy grey cat called **Comet** (comic relief, never speaks) can appear in th
 
 ## Adventure map (first episodes)
 
-| # | Episode | How the watch leads there |
+| # | Episode | Atlas's danger (matches the topic) |
 |---|---|---|
-| 1 | Time crystals | The watch's ticking syncs with the crystal's heartbeat |
-| 2 | Dark oxygen | The watch points down, to the bottom of the ocean |
-| 3 | Supernova | "Every oxygen atom was forged inside a star". The watch points up |
-| 4+ | Neutron stars, black holes, dark matter, dark energy | See the Season 1 roadmap in `ideas/backlog.md` |
+| 1 | Time crystals | (cabin episode, no danger) |
+| 2 | Dark oxygen | His diving bell runs out of oxygen |
+| 3+ | Supernova, neutron stars, black holes, dark matter, dark energy | See the Season 1 roadmap in `ideas/backlog.md` |
