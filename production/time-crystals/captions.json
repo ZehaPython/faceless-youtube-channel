@@ -1,0 +1,33 @@
+{
+  "note": "Times are in the ORIGINAL voiceover (before speed-up), measured from the pauses in audio/voiceover-v1.mp3. Text assumes the voice read the script word for word. The hook text covers 0-hook_end, so captions start after it.",
+  "hook": {"text": "This Crystal Has<br>a <b>Heartbeat</b>", "end": 5.37},
+  "phrases": [
+    [5.37, 9.21, "Normal crystals, like salt or diamond, repeat in space."],
+    [9.76, 11.58, "Atom, atom, atom..."],
+    [12.08, 13.13, "over and over."],
+    [13.84, 16.98, "In 2012, a Nobel-winning physicist asked:"],
+    [17.49, 19.72, "could something repeat in <b>time</b> instead?"],
+    [20.37, 22.01, "Other physicists ran the math."],
+    [22.52, 23.09, "Their answer?"],
+    [23.65, 23.94, "<b>No.</b>"],
+    [24.33, 25.12, "Not on its own."],
+    [25.56, 26.24, "That would be..."],
+    [26.64, 27.82, "<b>perpetual motion.</b>"],
+    [28.38, 30.17, "So scientists cheated."],
+    [30.57, 31.15, "Just a little."],
+    [31.68, 33.37, "They kicked atoms with lasers..."],
+    [33.74, 34.93, "tick, tick, tick."],
+    [35.53, 37.33, "But the atoms didn't follow the beat."],
+    [37.77, 39.82, "They flipped on every <b>second</b> kick."],
+    [40.33, 42.94, "And they don't heat up and wear out like normal matter."],
+    [43.60, 47.55, "In 2021, Google built one inside a <b>quantum computer.</b>"],
+    [47.99, 49.82, "A whole new phase of matter."],
+    [50.43, 50.79, "Hang on..."],
+    [51.25, 53.12, "my watch just synced to its heartbeat."],
+    [53.69, 54.78, "And now it's pointing..."],
+    [55.23, 55.67, "<b>down.</b>"],
+    [56.24, 59.36, "To the bottom of the ocean, where something is making oxygen..."],
+    [59.74, 61.08, "in total darkness."],
+    [61.69, 62.59, "Pack a sweater."]
+  ]
+}
