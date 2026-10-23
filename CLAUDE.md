@@ -9,7 +9,7 @@ We are building a **faceless YouTube channel**: videos made without the creator 
 - **Channel name:** _TBD_
 - **Niche / topic:** science adventures with a space focus: Episodes 1–2 cover topic gaps (time crystals, dark oxygen), then well-known space topics (supernovae, black holes, dark matter...). See `ideas/backlog.md`.
 - **Target audience:** _TBD (age, interests, what they want from the channel)_
-- **Video formats:** YouTube Shorts only (vertical 9:16, under 60s)
+- **Video formats:** YouTube Shorts only (vertical 9:16). Natural speaking pace matters more than a 60 s cap: aim for ~55–75 s (Shorts can be up to 3 minutes).
 - **Publishing cadence:** _TBD (e.g. 2 long-form + 5 Shorts per week)_
 - **Tone & voice:** warm, playful, awe-struck science storytelling, narrated by our host Atlas (look approved). See `channel/character.md` and `channel/voice.md`.
 - **Story format:** stand-alone, thriller-style mini-adventures packed with verified wow facts (one common thread, cold open in danger, twist, fact pops, loop ending; no cross-episode cliffhangers). See `channel/format.md`.

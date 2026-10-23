@@ -42,8 +42,8 @@ Before writing, read:
   in the video description.
 - **Concrete over abstract.** Compare numbers to everyday things ("most of an AA battery").
 - **Loop ending.** The last line flows back into the hook.
-- **Length:** 140–150 words of narration (≈ 56–60 s; the edit can speed the voice up to 5%). Short sentences, plain
-  words, written for the ear.
+- **Length:** 140–150 words of narration (≈ 60–70 s at a calm, natural pace). Never plan to speed the voice up or cut
+  pauses to hit 60 s; the creator prefers a slightly *slower* delivery. Short sentences, plain words, written for the ear.
 
 ## Output: `scripts/<slug>.md`
 
