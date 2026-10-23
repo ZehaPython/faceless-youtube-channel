@@ -154,3 +154,6 @@ vite.config.ts.timestamp-*
 # Python
 __pycache__/
 *.pyc
+
+# Licensed music (YouTube Audio Library etc.): never commit; the repo is public
+production/*/audio/music/
