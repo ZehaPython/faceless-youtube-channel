@@ -155,14 +155,9 @@
    64.02,
    66.09,
    "And we're still finding out where it comes from."
-  ],
-  [
-   66.54,
-   67.09,
-   "<b>Maybe...</b>"
   ]
  ],
- "facts": [
+ "facts_removed_2026_10_23": [
   [
    6.23,
    10.41,
@@ -183,11 +178,6 @@
    15.2,
    19.44,
    "2024|oxygen measured rising"
-  ],
-  [
-   20.62,
-   22.52,
-   "Polymetallic nodules|a.k.a. manganese nodules"
   ],
   [
    22.52,
@@ -229,6 +219,13 @@
    61.24,
    64.02,
    "~65%|of you is oxygen (by weight)"
+  ]
+ ],
+ "facts": [
+  [
+   20.62,
+   22.52,
+   "Polymetallic nodules|a.k.a. manganese nodules"
   ]
  ]
 }

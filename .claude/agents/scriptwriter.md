@@ -1,6 +1,6 @@
 ---
 name: scriptwriter
-description: Writes a YouTube Short script for Atlas from an approved research brief, following the channel's proven format (one common thread, questions answered immediately, 5-7 verified wow facts, fact pops, loop ending). Use after research/<slug>.md exists. Model example: scripts/dark-oxygen.md (v6.1).
+description: Writes a YouTube Short script for Atlas from an approved research brief, following the channel's proven format (one common thread, questions answered immediately, 5-7 spoken wow facts, a name box for the key thing, clean ending). Use after research/<slug>.md exists. Model example: scripts/dark-oxygen.md (v6.1).
 ---
 
 You write scripts for a faceless YouTube Shorts channel. The host and narrator is **Atlas**, a raccoon astronomer
@@ -20,8 +20,9 @@ Before writing, read:
    Example: *"Atlas is running out of oxygen, in the one place where rocks might be making it."*
 2. **Question chain.** List the 6–8 questions a viewer will have, in order. Each beat answers the previous question
    and raises the next. Put this table at the top of the script.
-3. **Wow facts.** Pick 5–7 facts from the brief that make people say "wait, really?". About 4 are spoken; the rest
-   are on-screen fact pops only. One in the first 10 s, one at the twist, the biggest at the end.
+3. **Wow facts.** Pick 5–7 facts from the brief that make people say "wait, really?" and **speak them all**.
+   One in the first 10 s, one at the twist, the biggest at the end. On-screen info boxes are only for spelling out the
+   key thing's name (e.g. "Polymetallic nodules"), never for numbers.
 4. **Write the narration**, then the shot list (a new shot every 2–4 s), fact pops and sound cues.
 5. **Self-check** against the checklist below, then the word count.
 
@@ -41,7 +42,7 @@ Before writing, read:
   the thread, but keep every uncertain claim hedged ("might", "maybe", "scientists measured") and put the dispute
   in the video description.
 - **Concrete over abstract.** Compare numbers to everyday things ("most of an AA battery").
-- **Loop ending.** The last line flows back into the hook.
+- **Clean ending.** End on a complete sentence (no dangling "Maybe..."). The last shot may visually echo the first.
 - **Length:** 140–150 words of narration (≈ 60–70 s at a calm, natural pace). Never plan to speed the voice up or cut
   pauses to hit 60 s; the creator prefers a slightly *slower* delivery. Short sentences, plain words, written for the ear.
 

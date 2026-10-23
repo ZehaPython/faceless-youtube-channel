@@ -15,3 +15,4 @@ Feedback:
 - 2026-10-23: creator approved first frame v4 ("go for it"). Production started.
 - 2026-10-23: 19 Kling clips made. 02 (garbled numbers) and 19 (bubbles became floating rocks) replaced with slow-zoom stills; Kling versions kept in clips/_rejected/.
 - 2026-10-23: Phase 2 done. final/dark-oxygen-v1.mp4 (1080x1920, 74.7 s, voice 0.90x, Resolution under it, hook + 31 captions + 13 fact pops). upload.md written. Awaiting creator review.
+- 2026-10-23: v2: creator removed all info boxes except the nodule name, and the final "Maybe..." (audio cut at 66.31 s, captions updated). final/dark-oxygen-v2.mp4 (73.7 s). No re-animation needed.
