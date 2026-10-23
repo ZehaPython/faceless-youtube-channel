@@ -1,7 +1,7 @@
 # dark-oxygen
-Phase: 1 (preview)
+Phase: 2 (production)
 Preview version: v4 (option B: hook text at top, gauge fully visible, chin light beam removed; preview/first-frame-v4.png)
-Preview approved: pending
+Preview approved: yes
 Feedback:
 - 2026-10-23: helmet reference made (channel/reference/atlas-diving-helmet.png, cropped from atlas-diving-helmet-sheet.png).
 - 2026-10-23: voiceover v1 received (67.2 s). Pauses tightened to max 0.3 s -> audio/voiceover-v1-tight.wav (62.2 s);
@@ -12,3 +12,4 @@ Feedback:
 - 2026-10-23: creator chose Resolution (signature track for all videos). Voice at 0.95x approved by creator.
 - 2026-10-23: creator asked for 5% slower again -> voice at 0.90x (audio/voiceover-v1-slow90.wav, 74.693628s). Test mix G sent.
 - 2026-10-23: creator chose option B. v2 (new composition), v3 (single-needle gauge), v4 (beam removed). v4 sent for approval.
+- 2026-10-23: creator approved first frame v4 ("go for it"). Production started.

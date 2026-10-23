@@ -65,19 +65,26 @@ def download(url, out):
 
 
 def make_image(plan, scene, ref_urls, root):
-    out = root / "scenes" / f"{scene['id']}.png"
-    if out.exists():
-        return f"[{scene['id']}] image exists, skipped"
+    # A scene can also have an end_prompt: a second image Kling uses as the clip's last frame.
+    targets = [(root / "scenes" / f"{scene['id']}.png", scene["prompt"])]
+    if scene.get("end_prompt"):
+        targets.append((root / "scenes" / f"{scene['id']}-end.png", scene["end_prompt"]))
     prefix = plan["atlas_prefix"] if scene.get("character") else plan["world_prefix"]
-    result = run(IMAGE_MODEL, {
-        "prompt": f"{prefix}\n\nScene: {scene['prompt']}",
-        "negative_prompt": plan["negative"],
-        "image_urls": ref_urls,
-        "aspect_ratio": "9:16",
-        "resolution": "2k",
-    }, scene["id"])
-    download(result["images"][0]["url"], out)
-    return f"[{scene['id']}] image saved"
+    done = []
+    for out, prompt in targets:
+        if out.exists():
+            done.append(f"{out.name} exists, skipped")
+            continue
+        result = run(IMAGE_MODEL, {
+            "prompt": f"{prefix}\n\nScene: {prompt}",
+            "negative_prompt": plan["negative"],
+            "image_urls": ref_urls,
+            "aspect_ratio": "9:16",
+            "resolution": "2k",
+        }, out.stem)
+        download(result["images"][0]["url"], out)
+        done.append(f"{out.name} saved")
+    return f"[{scene['id']}] " + "; ".join(done)
 
 
 def make_clip(plan, scene, root):
@@ -87,12 +94,16 @@ def make_clip(plan, scene, root):
     image = root / scene["image"] if scene.get("image") else root / "scenes" / f"{scene['id']}.png"
     seconds = (scene["end"] - scene["start"]) / plan["voice_speed"]
     duration = min(15, max(3, math.ceil(seconds)))
-    result = run(VIDEO_MODEL, {
+    arguments = {
         "image_url": upload(image),
         "prompt": f"{scene['motion']} Avoid: {plan['video_negative']}.",
         "duration": duration,
         "sound": "off",
-    }, scene["id"])
+    }
+    end_image = root / "scenes" / f"{scene['id']}-end.png"
+    if scene.get("end_prompt") and end_image.exists():
+        arguments["last_image_url"] = upload(end_image)
+    result = run(VIDEO_MODEL, arguments, scene["id"])
     url = (result.get("video") or {}).get("url")
     if not url:
         raise RuntimeError(f"[{scene['id']}] completed but no video URL; keys {sorted(result)}")

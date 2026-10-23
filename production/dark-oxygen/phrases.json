@@ -1,0 +1,1015 @@
+[
+ {
+  "start": 0.0,
+  "end": 1.84,
+  "text": "These rocks are making oxygen...",
+  "words": [
+   [
+    "these",
+    0.0,
+    0.34
+   ],
+   [
+    "rocks",
+    0.34,
+    0.73
+   ],
+   [
+    "are",
+    0.73,
+    0.8
+   ],
+   [
+    "making",
+    0.8,
+    1.2
+   ],
+   [
+    "oxygen(2)",
+    1.2,
+    1.84
+   ]
+  ]
+ },
+ {
+  "start": 2.11,
+  "end": 3.52,
+  "text": "in total darkness.",
+  "words": [
+   [
+    "in",
+    2.11,
+    2.26
+   ],
+   [
+    "total",
+    2.26,
+    2.81
+   ],
+   [
+    "darkness",
+    2.81,
+    3.52
+   ]
+  ]
+ },
+ {
+  "start": 3.9,
+  "end": 4.26,
+  "text": "Good.",
+  "words": [
+   [
+    "good",
+    3.9,
+    4.26
+   ]
+  ]
+ },
+ {
+  "start": 4.55,
+  "end": 5.6,
+  "text": "Because I'm running out.",
+  "words": [
+   [
+    "because(2)",
+    4.55,
+    4.8
+   ],
+   [
+    "i'm(2)",
+    4.8,
+    4.95
+   ],
+   [
+    "running",
+    4.95,
+    5.22
+   ],
+   [
+    "out",
+    5.22,
+    5.6
+   ]
+  ]
+ },
+ {
+  "start": 6.23,
+  "end": 9.91,
+  "text": "Up top, tiny plankton make about half of Earth's oxygen.",
+  "words": [
+   [
+    "up",
+    6.23,
+    6.38
+   ],
+   [
+    "top(2)",
+    6.38,
+    6.76
+   ],
+   [
+    "tiny",
+    7.05,
+    7.49
+   ],
+   [
+    "plankton",
+    7.49,
+    8.0
+   ],
+   [
+    "make",
+    8.0,
+    8.23
+   ],
+   [
+    "about",
+    8.23,
+    8.5
+   ],
+   [
+    "half",
+    8.5,
+    8.92
+   ],
+   [
+    "of",
+    8.92,
+    9.04
+   ],
+   [
+    "earth's",
+    9.04,
+    9.39
+   ],
+   [
+    "oxygen",
+    9.39,
+    9.91
+   ]
+  ]
+ },
+ {
+  "start": 10.41,
+  "end": 12.68,
+  "text": "Four kilometers down, there's no sun.",
+  "words": [
+   [
+    "four",
+    10.41,
+    10.68
+   ],
+   [
+    "kilometers",
+    10.68,
+    11.19
+   ],
+   [
+    "down",
+    11.19,
+    11.64
+   ],
+   [
+    "there's",
+    11.8,
+    11.97
+   ],
+   [
+    "no",
+    11.97,
+    12.23
+   ],
+   [
+    "sun",
+    12.23,
+    12.68
+   ]
+  ]
+ },
+ {
+  "start": 13.1,
+  "end": 14.59,
+  "text": "Nothing should make oxygen.",
+  "words": [
+   [
+    "nothing",
+    13.1,
+    13.65
+   ],
+   [
+    "should",
+    13.65,
+    13.85
+   ],
+   [
+    "make",
+    13.85,
+    14.08
+   ],
+   [
+    "oxygen",
+    14.08,
+    14.59
+   ]
+  ]
+ },
+ {
+  "start": 15.2,
+  "end": 18.88,
+  "text": "Yet in 2024, scientists measured it rising here.",
+  "words": [
+   [
+    "yet",
+    15.2,
+    15.48
+   ],
+   [
+    "in",
+    15.48,
+    15.64
+   ],
+   [
+    "twenty",
+    15.64,
+    15.97
+   ],
+   [
+    "twenty",
+    15.97,
+    16.27
+   ],
+   [
+    "four",
+    16.27,
+    16.73
+   ],
+   [
+    "scientists(2)",
+    16.98,
+    17.62
+   ],
+   [
+    "measured",
+    17.62,
+    17.96
+   ],
+   [
+    "it",
+    17.96,
+    18.09
+   ],
+   [
+    "rising",
+    18.09,
+    18.6
+   ],
+   [
+    "here",
+    18.6,
+    18.88
+   ]
+  ]
+ },
+ {
+  "start": 19.44,
+  "end": 20.22,
+  "text": "The suspects?",
+  "words": [
+   [
+    "the",
+    19.44,
+    19.52
+   ],
+   [
+    "suspects",
+    19.52,
+    20.22
+   ]
+  ]
+ },
+ {
+  "start": 20.62,
+  "end": 22.07,
+  "text": "Polymetallic nodules.",
+  "words": [
+   [
+    "polymetallic",
+    20.62,
+    21.4
+   ],
+   [
+    "nodules",
+    21.4,
+    22.07
+   ]
+  ]
+ },
+ {
+  "start": 22.52,
+  "end": 24.78,
+  "text": "Metal lumps growing just millimeters...",
+  "words": [
+   [
+    "metal",
+    22.52,
+    22.89
+   ],
+   [
+    "lumps",
+    22.89,
+    23.32
+   ],
+   [
+    "growing",
+    23.32,
+    23.68
+   ],
+   [
+    "just",
+    23.68,
+    23.93
+   ],
+   [
+    "millimeters",
+    23.93,
+    24.78
+   ]
+  ]
+ },
+ {
+  "start": 24.78,
+  "end": 26.22,
+  "text": "per million years.",
+  "words": [
+   [
+    "per",
+    24.78,
+    25.12
+   ],
+   [
+    "million",
+    25.12,
+    25.68
+   ],
+   [
+    "years",
+    25.68,
+    26.22
+   ]
+  ]
+ },
+ {
+  "start": 26.66,
+  "end": 28.13,
+  "text": "Each carries about a volt.",
+  "words": [
+   [
+    "each",
+    26.66,
+    26.97
+   ],
+   [
+    "carries",
+    26.97,
+    27.33
+   ],
+   [
+    "about",
+    27.33,
+    27.58
+   ],
+   [
+    "a",
+    27.58,
+    27.63
+   ],
+   [
+    "volt",
+    27.63,
+    28.13
+   ]
+  ]
+ },
+ {
+  "start": 28.59,
+  "end": 31.15,
+  "text": "Together, maybe enough to split seawater...",
+  "words": [
+   [
+    "together",
+    28.59,
+    29.07
+   ],
+   [
+    "maybe",
+    29.37,
+    29.66
+   ],
+   [
+    "enough",
+    29.66,
+    29.95
+   ],
+   [
+    "to(3)",
+    29.95,
+    30.05
+   ],
+   [
+    "split",
+    30.05,
+    30.45
+   ],
+   [
+    "seawater(2)",
+    30.45,
+    31.15
+   ]
+  ]
+ },
+ {
+  "start": 31.37,
+  "end": 32.27,
+  "text": "into oxygen.",
+  "words": [
+   [
+    "into",
+    31.37,
+    31.7
+   ],
+   [
+    "oxygen(2)",
+    31.7,
+    32.27
+   ]
+  ]
+ },
+ {
+  "start": 32.74,
+  "end": 34.81,
+  "text": "So why isn't everyone celebrating?",
+  "words": [
+   [
+    "so",
+    32.74,
+    33.04
+   ],
+   [
+    "why",
+    33.04,
+    33.4
+   ],
+   [
+    "isn't",
+    33.4,
+    33.66
+   ],
+   [
+    "everyone",
+    33.66,
+    34.05
+   ],
+   [
+    "celebrating",
+    34.05,
+    34.81
+   ]
+  ]
+ },
+ {
+  "start": 35.26,
+  "end": 37.74,
+  "text": "Because miners want these exact rocks.",
+  "words": [
+   [
+    "because(2)",
+    35.26,
+    35.55
+   ],
+   [
+    "miners",
+    35.55,
+    36.1
+   ],
+   [
+    "want(2)",
+    36.1,
+    36.37
+   ],
+   [
+    "these",
+    36.37,
+    36.62
+   ],
+   [
+    "exact",
+    36.62,
+    37.25
+   ],
+   [
+    "rocks",
+    37.25,
+    37.74
+   ]
+  ]
+ },
+ {
+  "start": 38.09,
+  "end": 39.82,
+  "text": "They're packed with battery metals.",
+  "words": [
+   [
+    "they're",
+    38.09,
+    38.23
+   ],
+   [
+    "packed",
+    38.23,
+    38.76
+   ],
+   [
+    "with",
+    38.76,
+    38.9
+   ],
+   [
+    "battery",
+    38.9,
+    39.32
+   ],
+   [
+    "metals",
+    39.32,
+    39.82
+   ]
+  ]
+ },
+ {
+  "start": 40.17,
+  "end": 40.93,
+  "text": "Scoop them up...",
+  "words": [
+   [
+    "scoop",
+    40.17,
+    40.55
+   ],
+   [
+    "them(2)",
+    40.55,
+    40.7
+   ],
+   [
+    "up",
+    40.7,
+    40.93
+   ]
+  ]
+ },
+ {
+  "start": 41.18,
+  "end": 43.41,
+  "text": "and any oxygen they make goes with them.",
+  "words": [
+   [
+    "and(2)",
+    41.18,
+    41.42
+   ],
+   [
+    "any",
+    41.42,
+    41.7
+   ],
+   [
+    "oxygen(2)",
+    41.7,
+    42.15
+   ],
+   [
+    "they",
+    42.15,
+    42.27
+   ],
+   [
+    "make",
+    42.27,
+    42.65
+   ],
+   [
+    "goes",
+    42.65,
+    42.94
+   ],
+   [
+    "with(2)",
+    42.94,
+    43.16
+   ],
+   [
+    "them(2)",
+    43.16,
+    43.41
+   ]
+  ]
+ },
+ {
+  "start": 43.91,
+  "end": 44.98,
+  "text": "Will that change your air?",
+  "words": [
+   [
+    "will(2)",
+    43.91,
+    44.02
+   ],
+   [
+    "that",
+    44.02,
+    44.2
+   ],
+   [
+    "change",
+    44.2,
+    44.5
+   ],
+   [
+    "your",
+    44.5,
+    44.67
+   ],
+   [
+    "air",
+    44.67,
+    44.98
+   ]
+  ]
+ },
+ {
+  "start": 45.41,
+  "end": 45.72,
+  "text": "No.",
+  "words": [
+   [
+    "no",
+    45.41,
+    45.72
+   ]
+  ]
+ },
+ {
+  "start": 45.97,
+  "end": 46.9,
+  "text": "That's made up top.",
+  "words": [
+   [
+    "that's",
+    45.97,
+    46.22
+   ],
+   [
+    "made",
+    46.22,
+    46.42
+   ],
+   [
+    "up",
+    46.42,
+    46.57
+   ],
+   [
+    "top(2)",
+    46.57,
+    46.9
+   ]
+  ]
+ },
+ {
+  "start": 47.34,
+  "end": 51.19,
+  "text": "But down here, they might be oxygen for five thousand species.",
+  "words": [
+   [
+    "but",
+    47.34,
+    47.48
+   ],
+   [
+    "down",
+    47.48,
+    47.76
+   ],
+   [
+    "here",
+    47.76,
+    48.11
+   ],
+   [
+    "they",
+    48.36,
+    48.47
+   ],
+   [
+    "might",
+    48.47,
+    48.75
+   ],
+   [
+    "be",
+    48.75,
+    48.88
+   ],
+   [
+    "oxygen(2)",
+    48.88,
+    49.34
+   ],
+   [
+    "for(2)",
+    49.34,
+    49.48
+   ],
+   [
+    "five",
+    49.48,
+    49.91
+   ],
+   [
+    "thousand(2)",
+    49.91,
+    50.5
+   ],
+   [
+    "species",
+    50.5,
+    51.19
+   ]
+  ]
+ },
+ {
+  "start": 51.51,
+  "end": 52.08,
+  "text": "Most...",
+  "words": [
+   [
+    "most",
+    51.51,
+    52.08
+   ]
+  ]
+ },
+ {
+  "start": 52.27,
+  "end": 53.44,
+  "text": "unknown to science.",
+  "words": [
+   [
+    "unknown",
+    52.27,
+    52.76
+   ],
+   [
+    "to(3)",
+    52.76,
+    52.86
+   ],
+   [
+    "science",
+    52.86,
+    53.44
+   ]
+  ]
+ },
+ {
+  "start": 53.89,
+  "end": 54.78,
+  "text": "And once they're gone...",
+  "words": [
+   [
+    "and",
+    53.89,
+    54.01
+   ],
+   [
+    "once",
+    54.01,
+    54.24
+   ],
+   [
+    "they're",
+    54.24,
+    54.38
+   ],
+   [
+    "gone",
+    54.38,
+    54.78
+   ]
+  ]
+ },
+ {
+  "start": 55.08,
+  "end": 56.94,
+  "text": "they're gone for millions of years.",
+  "words": [
+   [
+    "they're",
+    55.08,
+    55.21
+   ],
+   [
+    "gone",
+    55.21,
+    55.55
+   ],
+   [
+    "for(2)",
+    55.55,
+    55.71
+   ],
+   [
+    "millions",
+    55.71,
+    56.37
+   ],
+   [
+    "of",
+    56.37,
+    56.45
+   ],
+   [
+    "years",
+    56.45,
+    56.94
+   ]
+  ]
+ },
+ {
+  "start": 57.38,
+  "end": 58.0,
+  "text": "And I'm out.",
+  "words": [
+   [
+    "and",
+    57.38,
+    57.5
+   ],
+   [
+    "i'm",
+    57.5,
+    57.67
+   ],
+   [
+    "out",
+    57.67,
+    58.0
+   ]
+  ]
+ },
+ {
+  "start": 58.32,
+  "end": 58.92,
+  "text": "Going up!",
+  "words": [
+   [
+    "going",
+    58.32,
+    58.61
+   ],
+   [
+    "up",
+    58.61,
+    58.92
+   ]
+  ]
+ },
+ {
+  "start": 59.42,
+  "end": 60.92,
+  "text": "Oxygen is precious.",
+  "words": [
+   [
+    "oxygen",
+    59.42,
+    59.97
+   ],
+   [
+    "is",
+    59.97,
+    60.21
+   ],
+   [
+    "precious",
+    60.21,
+    60.92
+   ]
+  ]
+ },
+ {
+  "start": 61.24,
+  "end": 63.66,
+  "text": "You're almost two-thirds oxygen, by weight.",
+  "words": [
+   [
+    "you're(2)",
+    61.24,
+    61.42
+   ],
+   [
+    "almost",
+    61.42,
+    61.77
+   ],
+   [
+    "two",
+    61.77,
+    62.04
+   ],
+   [
+    "thirds",
+    62.04,
+    62.47
+   ],
+   [
+    "oxygen",
+    62.47,
+    62.96
+   ],
+   [
+    "by",
+    62.96,
+    63.19
+   ],
+   [
+    "weight",
+    63.19,
+    63.66
+   ]
+  ]
+ },
+ {
+  "start": 64.02,
+  "end": 66.09,
+  "text": "And we're still finding out where it comes from.",
+  "words": [
+   [
+    "and",
+    64.02,
+    64.15
+   ],
+   [
+    "we're(3)",
+    64.15,
+    64.22
+   ],
+   [
+    "still",
+    64.22,
+    64.61
+   ],
+   [
+    "finding",
+    64.61,
+    64.99
+   ],
+   [
+    "out",
+    64.99,
+    65.16
+   ],
+   [
+    "where",
+    65.16,
+    65.41
+   ],
+   [
+    "it",
+    65.41,
+    65.49
+   ],
+   [
+    "comes",
+    65.49,
+    65.82
+   ],
+   [
+    "from",
+    65.82,
+    66.09
+   ]
+  ]
+ },
+ {
+  "start": 66.54,
+  "end": 67.09,
+  "text": "Maybe...",
+  "words": [
+   [
+    "maybe",
+    66.54,
+    67.09
+   ]
+  ]
+ }
+]

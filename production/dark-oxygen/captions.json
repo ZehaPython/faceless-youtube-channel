@@ -1,0 +1,234 @@
+{
+ "note": "Times are in the ORIGINAL voiceover, from forced alignment (tools/align_phrases.py -> phrases.json).",
+ "hook": {
+  "text": "These Rocks Are<br><b>Breathing</b>",
+  "end": 4.55,
+  "position": "top"
+ },
+ "phrases": [
+  [
+   4.55,
+   5.6,
+   "Because I'm running out."
+  ],
+  [
+   6.23,
+   9.91,
+   "Up top, tiny plankton make about <b>half</b> of Earth's oxygen."
+  ],
+  [
+   10.41,
+   12.68,
+   "Four kilometers down, there's no sun."
+  ],
+  [
+   13.1,
+   14.59,
+   "Nothing should make oxygen."
+  ],
+  [
+   15.2,
+   18.88,
+   "Yet in 2024, scientists measured it <b>rising</b> here."
+  ],
+  [
+   19.44,
+   20.22,
+   "The suspects?"
+  ],
+  [
+   20.62,
+   22.07,
+   "<b>Polymetallic</b> <b>nodules.</b>"
+  ],
+  [
+   22.52,
+   24.78,
+   "Metal lumps growing just millimeters..."
+  ],
+  [
+   24.78,
+   26.22,
+   "per <b>million</b> years."
+  ],
+  [
+   26.66,
+   28.13,
+   "Each carries about a <b>volt.</b>"
+  ],
+  [
+   28.59,
+   31.15,
+   "Together, maybe enough to split seawater..."
+  ],
+  [
+   31.37,
+   32.27,
+   "into oxygen."
+  ],
+  [
+   32.74,
+   34.81,
+   "So why isn't everyone celebrating?"
+  ],
+  [
+   35.26,
+   37.74,
+   "Because <b>miners</b> want these exact rocks."
+  ],
+  [
+   38.09,
+   39.82,
+   "They're packed with <b>battery</b> <b>metals.</b>"
+  ],
+  [
+   40.17,
+   40.93,
+   "Scoop them up..."
+  ],
+  [
+   41.18,
+   43.41,
+   "and any oxygen they make goes with them."
+  ],
+  [
+   43.91,
+   44.98,
+   "Will that change your air?"
+  ],
+  [
+   45.41,
+   45.72,
+   "<b>No.</b>"
+  ],
+  [
+   45.97,
+   46.9,
+   "That's made up top."
+  ],
+  [
+   47.34,
+   51.19,
+   "But down here, they might be oxygen for <b>five</b> <b>thousand</b> species."
+  ],
+  [
+   51.51,
+   52.08,
+   "Most..."
+  ],
+  [
+   52.27,
+   53.44,
+   "unknown to science."
+  ],
+  [
+   53.89,
+   54.78,
+   "And once they're gone..."
+  ],
+  [
+   55.08,
+   56.94,
+   "they're gone for <b>millions</b> of years."
+  ],
+  [
+   57.38,
+   58.0,
+   "And I'm out."
+  ],
+  [
+   58.32,
+   58.92,
+   "Going up!"
+  ],
+  [
+   59.42,
+   60.92,
+   "Oxygen is precious."
+  ],
+  [
+   61.24,
+   63.66,
+   "You're almost <b>two-thirds</b> oxygen, by weight."
+  ],
+  [
+   64.02,
+   66.09,
+   "And we're still finding out where it comes from."
+  ],
+  [
+   66.54,
+   67.09,
+   "<b>Maybe...</b>"
+  ]
+ ],
+ "facts": [
+  [
+   6.23,
+   10.41,
+   "~50%|of Earth's oxygen comes from ocean plankton"
+  ],
+  [
+   7.9,
+   10.41,
+   "Prochlorococcus|one microbe makes up to 20%",
+   "fact2"
+  ],
+  [
+   10.41,
+   15.2,
+   "4,000 m|zero sunlight"
+  ],
+  [
+   15.2,
+   19.44,
+   "2024|oxygen measured rising"
+  ],
+  [
+   20.62,
+   22.52,
+   "Polymetallic nodules|a.k.a. manganese nodules"
+  ],
+  [
+   22.52,
+   26.66,
+   "~1 cm|per 1,000,000 years"
+  ],
+  [
+   26.66,
+   28.59,
+   "~1 volt|an AA battery is 1.5"
+  ],
+  [
+   35.26,
+   40.17,
+   "21+ billion tons|of nodules in this zone"
+  ],
+  [
+   38.09,
+   40.17,
+   "nickel · cobalt|copper · manganese",
+   "fact2"
+  ],
+  [
+   47.34,
+   53.89,
+   "5,000+ species|~90% new to science"
+  ],
+  [
+   53.89,
+   57.38,
+   "44 years|1979 mining-test tracks still visible"
+  ],
+  [
+   59.42,
+   61.24,
+   "~2 billion years|Earth with almost no oxygen"
+  ],
+  [
+   61.24,
+   64.02,
+   "~65%|of you is oxygen (by weight)"
+  ]
+ ]
+}
