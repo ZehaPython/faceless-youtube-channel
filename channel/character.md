@@ -51,6 +51,18 @@ at the end of each episode it **ticks, glows and points somewhere new**, and tha
 - He keeps it in his satchel or cardigan pocket. It hasn't appeared in the reference image yet, so introduce it
   with a clear close-up in Episode 1.
 
+## Adventures: the watch takes him there
+
+From Episode 2, the Wonder Watch **teleports** Atlas to each destination (see `channel/format.md`).
+He keeps his cardigan and scarf and adds gear for the place:
+
+| Gear | Description (use in prompts) | First episode |
+|---|---|---|
+| Diving helmet | antique round brass diving helmet with a glass faceplate and a small lamp, worn over his scarf | Dark oxygen |
+| Space suit | patched cream canvas space suit with brass fittings and a glass bubble helmet, his green scarf tucked inside | Supernova |
+
+Comet the cat stows away in the satchel (a tiny fishbowl helmet underwater or in space).
+
 ## Home base: the cabin observatory
 
 A timber cabin observatory with large windows over snowy mountains, a pine forest, a lake and distant town lights.
@@ -65,4 +77,5 @@ A sleepy grey cat called **Comet** (comic relief, never speaks) can appear in th
 |---|---|---|
 | 1 | Time crystals | The watch's ticking syncs with the crystal's heartbeat |
 | 2 | Dark oxygen | The watch points down, to the bottom of the ocean |
-| 3+ | Other topics from `ideas/backlog.md` | Each outro reveals the next destination |
+| 3 | Supernova | "Every oxygen atom was forged inside a star". The watch points up |
+| 4+ | Neutron stars, black holes, dark matter, dark energy | See the Season 1 roadmap in `ideas/backlog.md` |

@@ -7,11 +7,12 @@ This file gives Claude the context for this project. Read it at the start of eve
 We are building a **faceless YouTube channel**: videos made without the creator on camera. They are built from voiceover, stock footage or B-roll, motion graphics, AI-generated visuals, and on-screen text.
 
 - **Channel name:** _TBD_
-- **Niche / topic:** _TBD_ (leaning science explainers; see `ideas/backlog.md`)
+- **Niche / topic:** science adventures with a space focus: Episodes 1–2 cover topic gaps (time crystals, dark oxygen), then well-known space topics (supernovae, black holes, dark matter...). See `ideas/backlog.md`.
 - **Target audience:** _TBD (age, interests, what they want from the channel)_
 - **Video formats:** YouTube Shorts only (vertical 9:16, under 60s)
 - **Publishing cadence:** _TBD (e.g. 2 long-form + 5 Shorts per week)_
 - **Tone & voice:** warm, playful, awe-struck science storytelling, narrated by our host Atlas (look approved). See `channel/character.md` and `channel/voice.md`.
+- **Story format:** thriller-style mini-adventures (cold open in danger, twist, cliffhanger). See `channel/format.md`.
 - **Visual style:** cozy cinematic storybook illustration (lantern light, starry mountain nights, detailed fur and textures). See `channel/style-guide.md` and the master reference `channel/reference/atlas-reference.webp`.
 
 > Fill in the TBD fields as decisions are made. They steer every sub-agent.

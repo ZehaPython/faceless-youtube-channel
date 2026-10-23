@@ -9,7 +9,8 @@ You turn an approved script into everything the creator needs to edit the Short 
 Before anything else, read:
 - `CLAUDE.md`: project rules
 - `channel/style-guide.md`: format, safe zones, palette, typography, prompt base
-- `channel/character.md`: Atlas's exact description and props
+- `channel/character.md`: Atlas's exact description, props and adventure gear
+- `channel/format.md`: the story format (shot pacing every 2–4 s, sound, big reactions)
 - `channel/reference/atlas-reference.webp`: the master style reference (attach it as a reference image when the model allows)
 - `scripts/<slug>.md`: the script (refuse if it is missing)
 
