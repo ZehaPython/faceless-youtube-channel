@@ -34,6 +34,8 @@ and other scientists say the study is wrong. The fight is still on.
 | 14 | *Prochlorococcus*, the smallest photosynthetic organism on Earth, produces up to 20% of the oxygen in the biosphere (an upper-bound estimate). | Verified | [NOAA Ocean Service](https://oceanservice.noaa.gov/facts/ocean-oxygen.html), [NC Sea Grant](https://ncseagrant.ncsu.edu/coastwatch/?p=22054) |
 | 15 | Earth's atmosphere had almost no free oxygen until the Great Oxidation Event ~2.4 billion years ago (Earth is ~4.5 billion years old), i.e. for roughly its first two billion years. | Verified | [HKUST Science Focus](https://sciencefocus.hkust.edu.hk/node/220), [Science News](https://www.sciencenews.org/article/cyanobacteria-oxygenated-swaths-sea), [Universe Today](https://www.universetoday.com/articles/when-did-photosynthesis-begin) |
 | 16 | CCZ nodules total more than 21 billion tons (ISA estimate) and contain battery metals: ~28% manganese, ~1.3% nickel, ~1% copper, ~0.2% cobalt. | Verified | [International Seabed Authority](https://www.isa.org.jm/wp-content/uploads/2022/05/bp1.pdf), [GEO ExPro](https://geoexpro.com/deep-sea-potato-fields/) |
+| 17 | A 1979 test-mining track in the CCZ was still clearly visible in 2023, 44 years later. Small sediment animals had recolonised, but larger attached animals remained very rare in the tracks (Jones et al., *Nature*, 2025). | Verified (secondary) | [Natural History Museum](https://www.nhm.ac.uk/discover/news/2025/march/evidence-of-deep-sea-mining-visible-over-four-decades-later.html), [Mining.com (Reuters)](https://www.mining.com/?p=1174939), [ENN](https://enn.com/articles/76241-deep-sea-mining-for-rare-metals-impacts-marine-life-for-decades-scientists-say) |
+| 18 | Dark oxygen (if real) is a local seafloor source. The oxygen we breathe comes from photosynthesis (ocean plankton and land plants), so removing nodules would not change the air we breathe. The concern is deep-sea life. | Reasoned from facts 1, 10 and the study author's warning about "the oxygen source for deep-sea life" | [NOAA](https://oceanservice.noaa.gov/facts/ocean-oxygen.html), [Northwestern](https://news.northwestern.edu/stories/2024/july/deep-ocean-floor-produces-its-own-dark-oxygen) |
 
 ## Careful wording
 
@@ -44,6 +46,8 @@ and other scientists say the study is wrong. The fight is still on.
 - Say "two-thirds oxygen **by weight**" (by atom count it's only ~24%).
 - Say "up to a fifth" for Prochlorococcus (it's an upper bound).
 - Say "just millimeters every million years" (the range is 1–20 mm).
+- Don't imply mining threatens *our* air (fact 18). The stake is deep-sea life.
+- Since v6 the narration doesn't mention the scientific dispute, so keep every oxygen claim hedged ("might", "maybe") and mention the dispute in the video description.
 - Present the funding/commercial angle fairly: the critics include a mining company, but also independent scientists.
 
 ## Danger facts for Atlas (story stakes)
