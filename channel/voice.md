@@ -22,7 +22,18 @@ We aim for that **style of delivery**, not that person's voice.
 - **Pace:** about 150–160 words per minute on average. That's fast for the hook and slow for the reveal.
 - **Avoid:** announcer voice, a breathy ASMR whisper, robotic flatness, or a sarcastic tone.
 
-## ElevenLabs "Voice Design" prompt (starting point)
+## Where to make it: Higgsfield (no extra subscription)
+
+Higgsfield's audio models include **Eleven v4** (ElevenLabs), **Text to Speech V2** (engines: ElevenLabs, MiniMax,
+Seed Speech, Vibe Voice, Cozy Voice), **Qwen Audio 3.0 TTS** and **Seed Audio 1.0**. They run on the Higgsfield
+website. The public API docs (2026-10-23) list no speech models, so the voiceover is made on the website for now.
+
+1. Open a text-to-speech model (start with Eleven v4 or Text to Speech V2 → ElevenLabs engine).
+2. Browse the **preset** voices and pick a warm, deep, mature male voice that fits the attributes below.
+3. Paste the voiceover text from `scripts/<slug>.md` and generate. Note the voice ID here so every episode uses the same voice.
+4. Never use the "reference element" (voice cloning) option with a recording of a real person.
+
+## ElevenLabs "Voice Design" prompt (only if you later use ElevenLabs directly)
 
 > A warm, rich, slightly gravelly baritone voice of a man in his mid-fifties with a neutral American accent.
 > He sounds like an enthusiastic science storyteller: friendly, playful and full of wonder, with an audible smile.
