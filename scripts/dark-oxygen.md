@@ -1,6 +1,9 @@
 # Script: dark-oxygen (Episode 2)
 
 **Status: approved by the creator (v6.1, 2026-10-23). Model script for future episodes.**
+
+> **Edit note (final video v3):** the climax "And I'm out. Going up!" was moved to the very end, after "...where it comes
+> from." Ending on the action keeps momentum; the closing facts no longer trail after the escape.
 Format: YouTube Short, 9:16, target ≤ 59 s. Thriller format (`channel/format.md`). **Stands on its own.**
 Narrator: Atlas. Research: `research/dark-oxygen.md`.
 

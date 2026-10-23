@@ -1,6 +1,6 @@
 {
   "slug": "dark-oxygen",
-  "voiceover": "audio/voiceover-v1-nomaybe.wav",
+  "voiceover": "audio/voiceover-v1-reordered.wav",
   "voice_speed": 0.9,
   "music": {
     "file": "audio/music/resolution-wayne-jones.mp3",
@@ -132,42 +132,42 @@
     {
       "id": "15-scraped-track",
       "start": 53.89,
-      "end": 57.38,
+      "end": 57.41,
       "character": false,
       "prompt": "An empty, bare scraped track across the deep seafloor: two long straight furrows in grey sediment with no nodules, no bubbles and no life, stretching into the darkness, while untouched nodules lie beside it. Bleak, silent, lit by a single dim lamp beam.",
       "motion": "Very slow, quiet push along the empty scraped track into the darkness. Only a few particles drift."
     },
     {
-      "id": "16-going-up",
-      "start": 57.38,
-      "end": 59.42,
-      "character": true,
-      "prompt": "Inside the dark brass diving bell flooded with red alarm light, Atlas in his brass diving helmet grabs and yanks a big brass lever with both paws, eyes wide with urgency; the brass oxygen gauge beside him shows its needle in the red zone.",
-      "motion": "Atlas yanks the brass lever down hard, the red alarm light flashes, the whole bell jolts upward, a rush of bubbles streams past the porthole. Atlas's appearance stays exactly the same."
-    },
-    {
       "id": "17-early-earth",
-      "start": 59.42,
-      "end": 61.24,
+      "start": 57.41,
+      "end": 59.23,
       "character": false,
       "prompt": "Planet Earth seen from space in deep time, half of it a barren rusty red-brown young world with dark oceans and no clouds, the other half blue oceans, white clouds and green land, as if transforming. Stars behind. Painterly storybook illustration.",
       "motion": "Time-lapse: the barren red young Earth slowly turns blue and green as clouds swirl across it. Slow rotation."
     },
     {
       "id": "18-body-oxygen",
-      "start": 61.24,
-      "end": 64.02,
+      "start": 59.23,
+      "end": 62.01,
       "character": false,
       "prompt": "A glowing translucent silhouette of a standing human body made of soft light against a dark starry background, filled about two-thirds of the way up with glowing blue-gold light like liquid, tiny sparkling particles inside. Elegant, wondrous, simple.",
       "motion": "The glowing light inside the silhouette rises and fills it up to about two-thirds, sparkling particles swirl. Slow push-in."
     },
     {
       "id": "19-loop",
-      "start": 64.02,
-      "end": 67.24,
+      "start": 62.01,
+      "end": 64.52,
       "character": false,
       "prompt": "The black deep-sea floor: a single dark metal lump in the middle, lit by a warm lamp beam from above, a thin stream of tiny glowing bubbles rising from it, other lumps fading into darkness around it. Mysterious and calm.",
       "motion": "The camera slowly sinks down toward the single bubbling lump; tiny glowing bubbles rise past the camera."
+    },
+    {
+      "id": "16-going-up",
+      "start": 64.52,
+      "end": 67.31,
+      "character": true,
+      "prompt": "Inside the dark brass diving bell flooded with red alarm light, Atlas in his brass diving helmet grabs and yanks a big brass lever with both paws, eyes wide with urgency; the brass oxygen gauge beside him shows its needle in the red zone.",
+      "motion": "Atlas yanks the brass lever down hard, the red alarm light flashes, the whole bell jolts upward, a rush of bubbles streams past the porthole. Atlas's appearance stays exactly the same."
     }
   ]
 }

@@ -40,7 +40,8 @@ Example (Dark Oxygen): *"Atlas is running out of oxygen, in the one place where 
    comedy beat. It's a pattern interrupt and a fan favourite in the making.
 10. **Clean ending, no "next episode".** Resolve Atlas's danger, land the biggest wow fact, and end on a complete
     sentence. The last shot can echo the first (visual loop), but don't end on a dangling word like "Maybe..."
-    (creator decision after Episode 2).
+    (creator decision after Episode 2). **Put the danger's resolution last** (e.g. "And I'm out. Going up!"):
+    land the closing facts first, then end on the action. Facts after the escape feel loose.
 11. **5–7 wow facts per episode, spoken.** Facts people didn't know, that make them say "wait, really?" (e.g. "half your
     oxygen comes from the ocean", "you're two-thirds oxygen"). Each must serve the common thread and be verified in the
     research brief. Spread them out: one in the first 10 s, one at the twist, the biggest at the end.

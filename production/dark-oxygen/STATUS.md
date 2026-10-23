@@ -16,3 +16,4 @@ Feedback:
 - 2026-10-23: 19 Kling clips made. 02 (garbled numbers) and 19 (bubbles became floating rocks) replaced with slow-zoom stills; Kling versions kept in clips/_rejected/.
 - 2026-10-23: Phase 2 done. final/dark-oxygen-v1.mp4 (1080x1920, 74.7 s, voice 0.90x, Resolution under it, hook + 31 captions + 13 fact pops). upload.md written. Awaiting creator review.
 - 2026-10-23: v2: creator removed all info boxes except the nodule name, and the final "Maybe..." (audio cut at 66.31 s, captions updated). final/dark-oxygen-v2.mp4 (73.7 s). No re-animation needed.
+- 2026-10-23: v3: creator asked to move "And I'm out. Going up!" to the very end (it stalled the video before the closing facts). Voiceover re-cut (audio/voiceover-v1-reordered.wav), scenes and captions remapped; scene 16 now last. final/dark-oxygen-v3.mp4 (74.8 s). No re-animation.
