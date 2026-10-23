@@ -40,10 +40,10 @@ Example (Dark Oxygen): *"Atlas is running out of oxygen, in the one place where 
    comedy beat. It's a pattern interrupt and a fan favourite in the making.
 10. **Loop ending, no "next episode".** Resolve Atlas's danger, land the biggest wow fact, then end on a line that
     flows back into the hook (e.g. "...Maybe..." → "These rocks are making oxygen"). Rewatches count toward retention.
-11. **3–4 wow facts per episode.** Facts people didn't know, that make them say "wait, really?" (e.g. "half your
+11. **5–7 wow facts per episode.** About 4 spoken, the rest as on-screen fact pops only. Facts people didn't know, that make them say "wait, really?" (e.g. "half your
     oxygen comes from the ocean", "you're two-thirds oxygen"). Each must serve the common thread, be verified in the
     research brief, and appear on screen as a **fact pop**: a big gold number plus a short parchment label.
-    Spread them out: one in the first 10 s, one at the twist, one at the end.
+    Spread them out: one in the first 10 s, one at the twist, the biggest at the end.
 
 ## Series identity without cliffhangers
 
