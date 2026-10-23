@@ -1,6 +1,6 @@
 # Story Format: making Atlas thrilling
 
-**Status: proposal (from creator feedback on Episode 1: "good but a little dull").**
+**Status: approved by the creator (2026-10-23). Model script: `scripts/dark-oxygen.md`. Agent: `.claude/agents/scriptwriter.md`.**
 
 Episode 1 was cozy and calm: Atlas mostly *watched* things from his desk. From Episode 2, Atlas **goes there**.
 Each Short is a **stand-alone** mini-adventure with danger, a mystery and lots of wow facts. Viewers meet each Short
@@ -44,6 +44,16 @@ Example (Dark Oxygen): *"Atlas is running out of oxygen, in the one place where 
     oxygen comes from the ocean", "you're two-thirds oxygen"). Each must serve the common thread, be verified in the
     research brief, and appear on screen as a **fact pop**: a big gold number plus a short parchment label.
     Spread them out: one in the first 10 s, one at the twist, the biggest at the end.
+
+## Clarity rules (from the Dark Oxygen rewrites)
+
+12. **Answer every question right away.** A question in the narration is followed by "Because..." and a one-line
+    answer, then the explanation. Never make viewers connect the dots themselves.
+13. **Answer the obvious worry honestly** (e.g. "Will that change your air? No. That's made up top.").
+14. **Say cause and effect out loud** ("Scoop them up... and any oxygen they make goes with them").
+15. **Name the key thing once** with its real name (e.g. "polymetallic nodules") and show a close-up or zoom-in of it.
+16. **Cut side-arguments** that blur the thread (e.g. a scientific dispute), keep the claims hedged, and put the
+    dispute in the description.
 
 ## Series identity without cliffhangers
 

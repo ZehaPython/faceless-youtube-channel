@@ -1,6 +1,6 @@
 # Script: dark-oxygen (Episode 2)
 
-**Status: draft v6.1 ("why isn't everyone celebrating?" is now answered in one plain line).**
+**Status: approved by the creator (v6.1, 2026-10-23). Model script for future episodes.**
 Format: YouTube Short, 9:16, target ≤ 59 s. Thriller format (`channel/format.md`). **Stands on its own.**
 Narrator: Atlas. Research: `research/dark-oxygen.md`.
 

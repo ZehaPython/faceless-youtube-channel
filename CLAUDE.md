@@ -32,9 +32,10 @@ Every video moves through three stages. Each stage has a dedicated sub-agent, an
 - **Output:** a research brief in `research/<video-slug>.md` with sources linked.
 - **Rule:** every factual claim needs a source. Mark anything unverified as such.
 
-### 2. Scripting agent
+### 2. Scripting agent (`.claude/agents/scriptwriter.md`)
+- Follows `channel/format.md`; model script: `scripts/dark-oxygen.md`.
 - Turns a research brief into a script for narration.
-- Structure: **Hook (first 5–15s) → Setup → Body (sections) → Payoff → Call to action**.
+- Structure: **common thread → question chain (each answered right away) → 5–7 wow facts with fact pops → loop ending**.
 - Writes for the ear: short sentences, plain words, no tongue-twisters.
 - Includes visual cues in brackets, e.g. `[B-ROLL: city skyline at night]`, `[TEXT: "73%"]`.
 - Proposes 3–5 title options and a thumbnail concept.
