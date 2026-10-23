@@ -13,3 +13,5 @@ Feedback:
 - 2026-10-23: creator asked for 5% slower again -> voice at 0.90x (audio/voiceover-v1-slow90.wav, 74.693628s). Test mix G sent.
 - 2026-10-23: creator chose option B. v2 (new composition), v3 (single-needle gauge), v4 (beam removed). v4 sent for approval.
 - 2026-10-23: creator approved first frame v4 ("go for it"). Production started.
+- 2026-10-23: 19 Kling clips made. 02 (garbled numbers) and 19 (bubbles became floating rocks) replaced with slow-zoom stills; Kling versions kept in clips/_rejected/.
+- 2026-10-23: Phase 2 done. final/dark-oxygen-v1.mp4 (1080x1920, 74.7 s, voice 0.90x, Resolution under it, hook + 31 captions + 13 fact pops). upload.md written. Awaiting creator review.
