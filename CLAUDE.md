@@ -81,7 +81,12 @@ Every video moves through three stages. Each stage has a dedicated sub-agent, an
 
 - Image and video generation: **Higgsfield** (connector). Fallback: layout sketches only, rendered with `tools/render_frame.py`
 - Voiceover: **Higgsfield text-to-speech** (Eleven v4 / Text to Speech V2 with the ElevenLabs engine; on the website, no separate ElevenLabs plan needed). See `channel/voice.md`.
-- Editing: _TBD (e.g. CapCut)_
+- Music: **"Resolution" by Wayne Jones** (YouTube Audio Library) is the channel's signature track for every video
+  (creator decision, 2026-10-23). Not stored in Git (public repo): re-upload it to `production/<slug>/audio/music/`
+  in each new session. Mix: start the track at ~0:40, music ~6 dB under the voice with gentle ducking
+  (ratio 2.5), 1 s fade-in, 2 s fade-out, final loudness −14 LUFS.
+- Voice pacing: use the voiceover at **0.95× speed** (slightly slower than generated); never cut pauses or speed it up.
+- Editing: assembled by Claude with `tools/assemble_short.py` (ffmpeg)
 - Channel analysis: `tools/channel_analysis.py`, `tools/fetch_titles.py`, `tools/topic_gaps.py` (yt-dlp)
 
 ## How Claude should work in this project

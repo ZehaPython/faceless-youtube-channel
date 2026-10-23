@@ -9,3 +9,4 @@ Feedback:
 - 2026-10-23: creator found the sped-up voice + quiet ambient music "unsynced". New plan: original voiceover slowed to
   0.95x (audio/voiceover-v1-slow95.wav, 70.8 s), music louder with gentle ducking (-6 dB under voice).
   Test mixes E (Resolution from 0:40) and F (Orbiting Knowhere from 0:00) sent; awaiting choice.
+- 2026-10-23: creator chose Resolution (signature track for all videos). Voice at 0.95x approved by creator.
