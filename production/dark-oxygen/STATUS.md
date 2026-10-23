@@ -1,6 +1,6 @@
 # dark-oxygen
 Phase: 1 (preview)
-Preview version: v1 (Atlas in the diving bell at the porthole; Qwen Image 3 Edit with atlas-reference + atlas-diving-helmet)
+Preview version: v4 (option B: hook text at top, gauge fully visible, chin light beam removed; preview/first-frame-v4.png)
 Preview approved: pending
 Feedback:
 - 2026-10-23: helmet reference made (channel/reference/atlas-diving-helmet.png, cropped from atlas-diving-helmet-sheet.png).
@@ -11,3 +11,4 @@ Feedback:
   Test mixes E (Resolution from 0:40) and F (Orbiting Knowhere from 0:00) sent; awaiting choice.
 - 2026-10-23: creator chose Resolution (signature track for all videos). Voice at 0.95x approved by creator.
 - 2026-10-23: creator asked for 5% slower again -> voice at 0.90x (audio/voiceover-v1-slow90.wav, 74.693628s). Test mix G sent.
+- 2026-10-23: creator chose option B. v2 (new composition), v3 (single-needle gauge), v4 (beam removed). v4 sent for approval.
