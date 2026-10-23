@@ -150,3 +150,7 @@ vite.config.ts.timestamp-*
 
 # Keep the credentials template in Git
 !.env.example
+
+# Python
+__pycache__/
+*.pyc
