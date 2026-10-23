@@ -40,6 +40,11 @@ Example (Dark Oxygen): *"Atlas is running out of oxygen, in the one place where 
 10. **Cliffhanger with stakes, not just a destination.** End on danger or a question the next episode answers.
     Keep "Pack a sweater" as the sign-off, and twist it to the next place ("...actually, pack a helmet").
 
+11. **3–4 wow facts per episode.** Facts people didn't know, that make them say "wait, really?" (e.g. "half your
+    oxygen comes from the ocean", "you're two-thirds oxygen"). Each must serve the common thread, be verified in the
+    research brief, and appear on screen as a **fact pop**: a big gold number plus a short parchment label.
+    Spread them out: one in the first 10 s, one at the twist, one at the end.
+
 ## Season 1 arc: "The Countdown" (option)
 
 The Wonder Watch has a second dial that is **counting down**. Each episode Atlas learns a little more:

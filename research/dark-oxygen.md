@@ -23,11 +23,22 @@ and other scientists say the study is wrong. The fight is still on.
 | 8 | New expeditions with deep-sea landers are planned to settle the question (e.g. the Nippon Foundation's Dark Oxygen Research Initiative). | Verified (announced); **results not yet published as of 2026-10-23** | [Smithsonian](https://www.smithsonianmag.com/smart-news/scientists-who-found-mysterious-dark-oxygen-on-the-ocean-floor-plan-a-new-expedition-hoping-to-settle-disputes-180985889/), [Nippon Foundation](https://tnfsa.nippon-foundation.or.jp/news/13238305), [Earth.com](https://www.earth.com/news/scientists-chase-an-oxygen-mystery-in-the-deep-pacific-ocean) |
 | 9 | The oxygen atoms on Earth (and in your body) were forged inside stars; massive stars spread them through space when they explode as supernovae. | Textbook (stellar nucleosynthesis); add a citation in the description | — |
 
+## Wow facts (added for v4: "things people didn't know")
+
+| # | Claim | Status | Source |
+|---|---|---|---|
+| 10 | Roughly half of Earth's oxygen production comes from the ocean, mostly from tiny plankton. (Some NOAA material says 50–80%; the official page says "roughly half".) | Verified | [NOAA Ocean Service](https://oceanservice.noaa.gov/facts/ocean-oxygen.html), [Maritime Executive (NOAA Fast Facts)](https://www.maritime-executive.com/editorials/fast-facts-how-much-oxygen-comes-from-the-ocean) |
+| 11 | The Clarion-Clipperton Zone has 5,578 recorded species; about 88–92% are new to science (Rabone et al., *Current Biology*, 2023). | Verified (secondary) | [Science News](https://www.sciencenews.org/?p=3124863), [Fox affiliates (AP)](https://www.fox35orlando.com/news/see-some-of-the-5000-new-species-found-in-planned-mining-zone-of-the-deep-pacific) |
+| 12 | Nodules grow extremely slowly: about 1–5 mm per million years (hydrogenetic), 10–20 mm per million years in the CCZ by one study. | Verified | [Smithsonian Ocean](https://www.ocean.si.edu/node/111035), [MINDeSEA](https://egdi.geology.cz/record/basic/5ee0d410-2aac-4328-9f37-390c0a010833), [ScienceBlog (Sydney study)](https://scienceblog.com/?p=582941) |
+| 13 | Oxygen is the largest part of the human body by mass: about 61–65%. | Verified | [Wikipedia: Composition of the human body](https://en.wikipedia.org/wiki/Composition_of_the_human_body), [Guinness World Records](https://www.guinnessworldrecords.com/world-records/106270-most-common-element-in-the-human-body-%e2%80%93-by-mass), [Visual Capitalist](https://visualcapitalist.com/the-elemental-composition-of-the-human-body/) |
+
 ## Careful wording
 
 - ❌ "Rocks make oxygen." ✅ "Scientists *think* these rocks might be making oxygen."
 - ❌ "Proved." ✅ "A 2024 study found... and other scientists say it's wrong."
 - ❌ "Up to 1 volt per rock, so a pile makes 1.5." ✅ "About a volt each. Pack them together, *maybe* enough to split seawater."
+- Say "about half" for ocean oxygen (not 70–80%). Say "almost two-thirds" for body oxygen (61–65%).
+- Say "just millimeters every million years" (the range is 1–20 mm).
 - Present the funding/commercial angle fairly: the critics include a mining company, but also independent scientists.
 
 ## Danger facts for Atlas (story stakes)
