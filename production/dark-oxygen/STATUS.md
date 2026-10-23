@@ -10,3 +10,4 @@ Feedback:
   0.95x (audio/voiceover-v1-slow95.wav, 70.8 s), music louder with gentle ducking (-6 dB under voice).
   Test mixes E (Resolution from 0:40) and F (Orbiting Knowhere from 0:00) sent; awaiting choice.
 - 2026-10-23: creator chose Resolution (signature track for all videos). Voice at 0.95x approved by creator.
+- 2026-10-23: creator asked for 5% slower again -> voice at 0.90x (audio/voiceover-v1-slow90.wav, 74.693628s). Test mix G sent.
