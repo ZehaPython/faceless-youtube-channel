@@ -6,7 +6,7 @@ This file gives Claude the context for this project. Read it at the start of eve
 
 We are building a **faceless YouTube channel**: videos made without the creator on camera. They are built from voiceover, stock footage or B-roll, motion graphics, AI-generated visuals, and on-screen text.
 
-- **Channel name:** _TBD_
+- **Channel name:** **Atlas and the Universe** (handle @AtlasAndTheUniverse; creator decision 2026-10-25)
 - **Niche / topic:** science adventures with a space focus: Episodes 1–2 cover topic gaps (time crystals, dark oxygen), then well-known space topics (supernovae, black holes, dark matter...). See `ideas/backlog.md`.
 - **Target audience:** _TBD (age, interests, what they want from the channel)_
 - **Video formats:** YouTube Shorts only (vertical 9:16). Natural speaking pace matters more than a 60 s cap: aim for ~55–75 s (Shorts can be up to 3 minutes).
