@@ -3,7 +3,7 @@
 - **Title:** These Rocks Are Breathing?
 - **File:** production/dark-oxygen/final/dark-oxygen-v3.mp4 (74.8 s)
 - **Published:** 2026-10-25, ~21:45 (Sunday evening), as the channel's first upload
-- **Link:** _add after upload_
+- **Link:** https://youtube.com/shorts/NePxGi14vaI
 
 ## Results (fill in from YouTube Studio → Analytics → Content → Shorts)
 
