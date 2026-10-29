@@ -1,0 +1,212 @@
+{
+ "note": "Times are in the ORIGINAL voiceover, from forced alignment (tools/align_phrases.py -> phrases.json).",
+ "hook": {
+  "text": "How Long Does a<br><b>Star</b> Live?",
+  "end": 5.08,
+  "position": "top"
+ },
+ "phrases": [
+  [
+   2.11,
+   2.79,
+   "Our Sun:"
+  ],
+  [
+   3.13,
+   4.62,
+   "<b>ten</b> <b>billion</b> years."
+  ],
+  [
+   5.08,
+   5.89,
+   "This giant?"
+  ],
+  [
+   6.23,
+   7.06,
+   "A <b>few</b> million."
+  ],
+  [
+   7.51,
+   8.43,
+   "And it's dying..."
+  ],
+  [
+   8.8,
+   9.56,
+   "<b>right</b> <b>now.</b>"
+  ],
+  [
+   10.21,
+   11.22,
+   "What is a star?"
+  ],
+  [
+   11.74,
+   12.88,
+   "A ball of <b>gas.</b>"
+  ],
+  [
+   13.23,
+   16.34,
+   "Three-quarters <b>hydrogen,</b> the rest mostly helium."
+  ],
+  [
+   16.92,
+   19.56,
+   "On our Sun, each of these boiling bubbles..."
+  ],
+  [
+   19.88,
+   21.35,
+   "is the size of <b>Texas.</b>"
+  ],
+  [
+   21.96,
+   25.42,
+   "Our Sun fuses <b>six</b> <b>hundred</b> <b>million</b> <b>tons</b> of hydrogen..."
+  ],
+  [
+   25.8,
+   26.75,
+   "<b>every</b> <b>second.</b>"
+  ],
+  [
+   27.36,
+   29.43,
+   "Why does this giant die so young?"
+  ],
+  [
+   29.9,
+   33.14,
+   "Because the <b>bigger</b> the star, the <b>faster</b> it burns its fuel."
+  ],
+  [
+   33.69,
+   34.78,
+   "The smallest stars?"
+  ],
+  [
+   35.17,
+   37.09,
+   "They can burn for a <b>trillion</b> years."
+  ],
+  [
+   37.62,
+   39.66,
+   "How it dies depends on its size."
+  ],
+  [
+   40.1,
+   44.38,
+   "Small stars like our Sun swell, then shrink into a <b>white</b> <b>dwarf.</b>"
+  ],
+  [
+   44.86,
+   47.27,
+   "Big stars fuse all the way to <b>iron.</b>"
+  ],
+  [
+   47.66,
+   49.22,
+   "But iron <b>eats</b> <b>energy.</b>"
+  ],
+  [
+   49.55,
+   51.89,
+   "The fire dies, the core collapses..."
+  ],
+  [
+   52.25,
+   53.18,
+   "<b>Supernova.</b>"
+  ],
+  [
+   53.68,
+   54.84,
+   "And that's my warning."
+  ],
+  [
+   55.35,
+   58.18,
+   "Ghost particles called <b>neutrinos</b> rush out first..."
+  ],
+  [
+   58.46,
+   59.4,
+   "<b>before</b> the light."
+  ],
+  [
+   59.8,
+   60.96,
+   "That's my head start."
+  ],
+  [
+   61.53,
+   62.36,
+   "Here's the twist:"
+  ],
+  [
+   62.73,
+   65.98,
+   "you'd think the <b>gold</b> in your ring came from explosions like this."
+  ],
+  [
+   66.45,
+   68.31,
+   "Scientists think much of it <b>didn't.</b>"
+  ],
+  [
+   68.68,
+   71.43,
+   "It was made when <b>two</b> <b>dead</b> <b>stars</b> crashed together."
+  ],
+  [
+   72.1,
+   73.29,
+   "Will our Sun explode?"
+  ],
+  [
+   73.67,
+   74.07,
+   "<b>No.</b>"
+  ],
+  [
+   74.33,
+   75.05,
+   "Too <b>small.</b>"
+  ],
+  [
+   75.39,
+   78.74,
+   "In <b>five</b> <b>billion</b> years, it'll swell, then fade."
+  ],
+  [
+   79.14,
+   80.45,
+   "But this one won't wait."
+  ],
+  [
+   80.74,
+   81.56,
+   "Time to <b>go!</b>"
+  ],
+  [
+   82.09,
+   85.72,
+   "This giant was so big, its leftover core collapses..."
+  ],
+  [
+   86.04,
+   87.28,
+   "into a <b>black</b> <b>hole.</b>"
+  ]
+ ],
+ "facts": [
+  [
+   52.25,
+   54.65,
+   "Supernova|an exploding star"
+  ]
+ ]
+}

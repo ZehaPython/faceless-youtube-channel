@@ -103,7 +103,8 @@ def make_clip(plan, scene, root):
     end_image = root / "scenes" / f"{scene['id']}-end.png"
     if scene.get("end_prompt") and end_image.exists():
         arguments["last_image_url"] = upload(end_image)
-    result = run(VIDEO_MODEL, arguments, scene["id"])
+    # Hero shots can ask for a better tier, e.g. "video_model": "kling-video/v3.0/pro/image-to-video".
+    result = run(scene.get("video_model", VIDEO_MODEL), arguments, scene["id"])
     url = (result.get("video") or {}).get("url")
     if not url:
         raise RuntimeError(f"[{scene['id']}] completed but no video URL; keys {sorted(result)}")

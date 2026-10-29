@@ -1,0 +1,186 @@
+{
+ "slug": "supernova",
+ "voiceover": "audio/voiceover-v1-pad.wav",
+ "voice_speed": 0.9,
+ "music": {
+  "file": "audio/music/resolution-wayne-jones.mp3",
+  "start": 40,
+  "gain": 0.45
+ },
+ "style_refs": [
+  "../../channel/reference/atlas-reference.webp",
+  "preview/first-frame-v3-art.png"
+ ],
+ "atlas_prefix": "Use the raccoon from the reference images as the character: keep his exact face, fur, round gold wire-rimmed glasses, his patched cream canvas space suit with brass fittings, the one large clear glass bubble helmet on a brass neck ring with his whole head and both ears inside it, his pine-green scarf around the collar, brown leather satchel and the round brass star detector on his wrist. Keep the same cozy cinematic storybook illustration style, painterly detail and dramatic red star lighting as the second reference image. Vertical 9:16 composition: main subject in the middle of the frame, the top quarter darker and calmer (space for on-screen text), the bottom fifth darker (space for captions). Clean illustration only: no text, no title, no lettering, not a poster.",
+ "world_prefix": "Keep the same cozy cinematic storybook illustration style, painterly detail and glowing cosmic lighting as the second reference image. Do not include any raccoon, cat or other character. Vertical 9:16 composition: main subject in the middle of the frame, the top quarter darker and calmer (space for on-screen text), the bottom fifth darker (space for captions). Clean illustration only: no text, no title, no lettering, not a poster.",
+ "negative": "text, letters, words, numbers, watermark, logo, subtitles, flat vector, cel shading, anime, neon colours, glossy plastic CGI, photograph, extra limbs, distorted paws, extra fingers, blurry face, duplicate character, human, ears outside the helmet, diving helmet, poster, title, caption, typography, credits",
+ "video_negative": "morphing, changing outfit, ears passing through the helmet glass, extra limbs, distorted paws, flickering face, text, watermark, wind blowing fabric, fast camera movement",
+ "scenes": [
+  {
+   "id": "01-hook",
+   "start": 0.0,
+   "image": "preview/first-frame-v3-art.png",
+   "video_model": "kling-video/v3.0/pro/image-to-video",
+   "motion": "(approved preview clip, preview/first-frame-v3-anim.mp4)",
+   "end": 5.08
+  },
+  {
+   "id": "02-detector",
+   "start": 5.08,
+   "character": true,
+   "prompt": "Extreme close-up of the round antique brass star detector on Atlas's space-suit wrist: a cream dial with a single black needle creeping toward a small red zone, brass bolts around the rim, his patched cream canvas sleeve and furry paw beside it. The giant red star's glow reflects in the dial glass; the star fills the soft-focus background. No numbers or text on the dial.",
+   "motion": "The needle on the brass dial creeps steadily toward the red zone and trembles. Red star-light flickers across the dial glass. Very slow push-in.",
+   "end": 10.21
+  },
+  {
+   "id": "03-surface",
+   "start": 10.21,
+   "video_model": "kling-video/v3.0/pro/image-to-video",
+   "prompt": "Extreme close-up of the surface of a giant red-orange star filling the whole frame: a honeycomb of bright boiling cells of glowing plasma with darker edges, like a vast simmering field of lava granules, thin glowing filaments between them, a plasma loop arching up at one side. Majestic, ultra detailed, glowing.",
+   "motion": "The honeycomb of plasma cells boils in place: bright centres well up and spread, dark edges sink, the surface simmers like a vast field of lava. A plasma loop slowly arches. Slow forward drift over the surface. Nothing leaves the surface.",
+   "end": 16.92
+  },
+  {
+   "id": "03b-texas",
+   "start": 16.92,
+   "video_model": "kling-video/v3.0/pro/image-to-video",
+   "prompt": "Extreme close-up of ONE single boiling plasma cell on the surface of a golden-yellow star, filling the frame: bright welling centre, darker sinking edges, neighbouring cells around it.",
+   "end_prompt": "The surface of a golden-yellow star seen from a bit further away: a honeycomb of bright boiling plasma cells; inside the one cell in the centre, a thin glowing gold outline map of the US state of Texas fits neatly within the cell, to show its size.",
+   "motion": "The camera slowly pulls back from one boiling plasma cell to reveal the honeycomb around it, as a thin glowing gold outline of Texas fades in inside the central cell. The plasma keeps simmering.",
+   "end": 21.96
+  },
+  {
+   "id": "04-our-sun",
+   "start": 21.96,
+   "prompt": "Our own calm golden-yellow Sun, bright and steady, seen from space just above Earth's orbit: the blue curve of Earth in the lower part of the frame, a few stars, soft golden glow.",
+   "motion": "The Sun glows steadily and its edge shimmers gently. Earth turns slowly below. Very slow push-in toward the Sun.",
+   "end": 23.81
+  },
+  {
+   "id": "05-core",
+   "start": 23.81,
+   "video_model": "kling-video/v3.0/pro/image-to-video",
+   "prompt": "A cutaway of a golden star: glowing concentric layers of plasma, layered like an onion, leading into a blinding white-gold core.",
+   "end_prompt": "Deep inside the blinding white-gold core of a star: countless tiny glowing spheres (atoms) colliding in pairs and flashing with bright bursts of light, waves of golden energy radiating outward. Magical, intense.",
+   "motion": "The camera dives through the glowing layers into the blinding core, where tiny glowing atoms collide and flash with bright bursts of light.",
+   "end": 27.36
+  },
+  {
+   "id": "06-small-vs-giant",
+   "start": 27.36,
+   "prompt": "Two stars side by side in dark space: on the left a small, calm golden-yellow star glowing gently; on the right a huge blue-white giant star blazing and roaring like a bonfire, flames of plasma leaping off it. The size difference is dramatic.",
+   "motion": "The small star glows calmly and steadily; the giant star roars and blazes, plasma flaring wildly off its surface as it burns through its fuel. Slow push-in.",
+   "end": 33.69
+  },
+  {
+   "id": "06b-red-dwarf",
+   "start": 33.69,
+   "prompt": "A tiny, calm, dim red star glowing steadily in the centre of the frame, small and patient, with a vast starry sky full of distant spiral galaxies all around it.",
+   "motion": "Time-lapse: the galaxies around the tiny red star slowly wheel and drift across the sky while the little red star keeps glowing perfectly steadily in the centre.",
+   "end": 37.62
+  },
+  {
+   "id": "07-white-dwarf",
+   "start": 37.62,
+   "prompt": "A calm golden-yellow star in the centre of dark space, a few stars around.",
+   "end_prompt": "A beautiful glowing ring nebula of soft pink, teal and gold gas drifting outward in dark space, with a tiny white-hot dot (a white dwarf) shining in its centre.",
+   "motion": "Time-lapse: the yellow star swells into a huge red giant, then its outer layers drift away as a glowing ring of gas, leaving a tiny white-hot dot at the centre.",
+   "end": 44.86
+  },
+  {
+   "id": "08-iron-layers",
+   "start": 44.86,
+   "prompt": "A cutaway view of a giant red star: onion-like glowing layers in red, orange, yellow and white, and at the very centre a dull, dark grey metallic iron core that glows less and less. Ominous.",
+   "motion": "The glowing onion layers churn slowly while the grey iron core at the centre grows and its glow drains away, the light around it dimming. Slow push-in toward the core.",
+   "end": 49.55
+  },
+  {
+   "id": "09-comet",
+   "start": 49.55,
+   "character": true,
+   "prompt": "Close-up of Atlas's brown leather satchel against his patched cream space suit: a small sleepy grey cat (Comet) pops its head out, wearing a tiny round glass fishbowl helmet, fur standing on end, big startled eyes. Beside it, the brass star detector on Atlas's wrist with its needle in the red zone. Red star-light, the giant star dimming in the background.",
+   "motion": "The small grey cat pops its head out of the satchel, startled, fur puffing up inside its tiny fishbowl helmet; the detector needle jumps into the red zone. The red light around them flickers and dims.",
+   "end": 51.75
+  },
+  {
+   "id": "10-black",
+   "start": 51.75,
+   "image": "scenes/10-black.png",
+   "motion": "(black beat, made with ffmpeg)",
+   "end": 52.25
+  },
+  {
+   "id": "11-supernova",
+   "start": 52.25,
+   "video_model": "kling-video/v3.0/pro/image-to-video",
+   "prompt": "A giant red star in dark space, its centre collapsing inward, the star dim and strained, cracks of light forming.",
+   "end_prompt": "A colossal supernova explosion filling the frame: a brilliant white-blue core flash with a vast expanding shockwave sphere of glowing orange, gold and blue gas bursting outward, filaments and debris streaming into space.",
+   "motion": "The giant star's core crumples inward for a moment, then the whole star bursts outward in a blinding flash and a huge expanding shockwave of light and glowing gas.",
+   "end": 55.35
+  },
+  {
+   "id": "11b-neutrinos",
+   "start": 55.35,
+   "character": true,
+   "prompt": "Atlas in his space suit on the dark rocky moon, turned three-quarters toward the viewer, looking at his wrist detector in alarm; countless faint, ghostly pale-blue streaks of light pour through the frame from the dying star behind him and pass straight through Atlas, the rocks and the ground. The star behind is dim, dark at its heart.",
+   "motion": "Faint ghostly blue streaks stream steadily through the frame and pass straight through Atlas and the rocks without touching anything. Atlas looks down at his clicking wrist detector in alarm. Slow push-in.",
+   "end": 59.8
+  },
+  {
+   "id": "11c-head-start",
+   "start": 59.8,
+   "character": true,
+   "prompt": "Atlas in his space suit on the dark rocky moon, glancing back over his shoulder at the dark, collapsing giant star behind him, one paw gripping a small brass thruster control on his chest. Determined expression. The star looks dark at its heart, faint ghostly blue streaks still passing.",
+   "motion": "Atlas glances back over his shoulder at the dark star, then turns forward with determination and grips his brass thruster control. Faint blue streaks pass through. Slow push-in.",
+   "end": 61.53
+  },
+  {
+   "id": "12-ring",
+   "start": 61.53,
+   "prompt": "Close-up of a simple gold ring resting on dark velvet, glowing in warm golden lantern light, sparkles on its curve, dark starry background.",
+   "motion": "Warm light slowly glides across the gold ring, little sparkles glint along its curve. Very slow orbit around the ring.",
+   "end": 66.45
+  },
+  {
+   "id": "12b-merger",
+   "start": 66.45,
+   "prompt": "Two small, ultra-dense glowing blue-white dead stars (neutron stars) spiralling around each other in dark space, close together, with swirling trails of light.",
+   "end_prompt": "A brilliant flash where two dead stars have collided in dark space, spraying a huge cloud of glittering golden sparks and gold dust outward into space.",
+   "motion": "The two small dead stars spiral around each other faster and faster, then smash together in a bright flash that sprays glittering golden sparks into space.",
+   "end": 72.1
+  },
+  {
+   "id": "13-cabin",
+   "start": 72.1,
+   "prompt": "Atlas's timber cabin observatory high in the mountains at dawn, warm lantern light in the windows, a brass telescope on the deck, pine forest and a calm lake below, and the gentle golden-yellow Sun rising over the mountain peaks. Peaceful, safe, warm.",
+   "motion": "The gentle Sun slowly rises over the mountains, soft morning light spreads over the cabin and the lake, mist drifts over the pines. Very slow push-in.",
+   "end": 79.14
+  },
+  {
+   "id": "14-flare",
+   "start": 79.14,
+   "character": true,
+   "prompt": "Atlas on the dark rocky moon, seen from behind, the giant star behind him flaring blinding white at its heart; small blue flames blast from the brass thrusters on the back of his space suit as he lifts off the ground, dust swirling.",
+   "motion": "The star flares blinding white; the brass thrusters on Atlas's suit fire bright blue flames and he lifts off the rocky ground, dust swirling around his boots.",
+   "end": 80.74
+  },
+  {
+   "id": "15-escape",
+   "start": 80.74,
+   "character": true,
+   "prompt": "A wide shot in dark space: the tiny silhouette of Atlas in his space suit with a small blue thruster trail streaking away toward the viewer, just ahead of a vast, blinding wall of white-gold light from the exploding star behind him.",
+   "motion": "The tiny figure of Atlas streaks fast toward the camera on a blue thruster trail, just ahead of a vast wall of light rushing after him.",
+   "end": 82.09
+  },
+  {
+   "id": "16-black-hole",
+   "start": 82.09,
+   "character": true,
+   "video_model": "kling-video/v3.0/pro/image-to-video",
+   "prompt": "Atlas floating safely in dark space in the lower part of the frame, seen from the side, turned toward a huge glowing cloud of orange, gold and blue gas from the explosion that spreads across the upper sky; the heart of the cloud glows bright. Quiet, awe-struck.",
+   "end_prompt": "Atlas floating safely in dark space in the lower part of the frame, seen from behind and to the side, looking back at the glowing explosion cloud; at its heart a perfectly black sphere with a thin, bright ring of bent light around it, the glowing gas spiralling into it. Awe-inspiring, quiet.",
+   "motion": "Atlas floats and looks back; at the heart of the glowing explosion cloud a perfectly black sphere forms, ringed by a thin halo of bent light, and slowly swallows the glow around it. Very slow push-in.",
+   "end": 89.03
+  }
+ ]
+}
