@@ -7,3 +7,4 @@ Feedback:
 - 2026-10-29: sequence breakdown written (sequences.md). First shot made with Atlas's new space suit; animation attempt 1 rejected (floating blobs, wind-blown scarf), attempt 2 sent for approval.
 - 2026-10-29: creator: ear poked out of the helmet. v3: helmet remade as one large bubble on a brass neck ring (both ears inside), re-animated (Kling Pro, 6 s), sent for approval.
 - 2026-10-29: creator approved preview v3 ("Yes make the full video"). Production started.
+- 2026-10-29: 20 scenes made (images: 15/16 regenerated for garbled text, 16-end remade as an edit of 16 for a clean morph; clips: 06 regenerated, the giant spat out a blob). final/supernova-v1.mp4 (1080x1920, 98.9 s, voice 0.90x, Resolution from 0:40, -14.5 LUFS, hook + captions + 'Supernova' name box). upload.md written. Awaiting creator review.

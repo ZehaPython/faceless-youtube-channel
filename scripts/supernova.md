@@ -1,6 +1,6 @@
 # Script: supernova (Episode 3)
 
-**Status: draft v5. Awaiting creator approval.** (v1–v4 in Git history.)
+**Status: v5.1 approved by creator (2026-10-29); video in production.** (v1–v4 in Git history.)
 
 **v5 changes (creator):** the 1987 line is removed (it didn't make sense in the story); the neutrino warning is
 rephrased so it explains Atlas's head start. The "you're made of this" twist (too similar to Episode 2's oxygen
