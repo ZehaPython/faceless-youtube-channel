@@ -16,7 +16,7 @@ Format: YouTube Short, 9:16, ~60–70 s at a calm pace. Thriller format (`channe
 Narrator: Atlas. Research: `research/supernova.md` (facts 1–18). Model: `scripts/dark-oxygen.md`.
 
 **v2 changes (creator feedback):** the hook now asks the big question, *"How long does a star live, and what
-happens when it dies?"*, and the episode answers it step by step: what a star is made of, how it burns, why giants
+happens when it dies?"*, and the episode answers it step by step: what a star is made of, how it burns, why big stars
 die young, how small and big stars die, and whether our Sun will explode. The **star close-ups are the visual
 centrepiece** (see "Hero shots" below).
 
@@ -30,7 +30,7 @@ and die.**
 | 1 | How long does a star live? And this one is dying *right now*? | Hook | **Sun: ~10 billion years. A giant: only a few million** |
 | 2 | What *is* a star? | A ball of gas | **Three-quarters hydrogen, the rest mostly helium**; **on the Sun, each boiling bubble is the size of Texas** |
 | 3 | How does it shine? | Fusion in the core | **Our Sun burns 600 million tons of hydrogen every second** |
-| 4 | Why do giants die young? | "Because they burn their fuel far faster" | **The smallest stars can burn for a trillion years** |
+| 4 | Why does this giant die so young? | "Because the bigger the star, the faster it burns its fuel" | **The smallest stars can burn for a trillion years** |
 | 5 | What happens when a star dies? | Depends on its size | **Small stars swell, then shrink into a white dwarf** |
 | 6 | And the big ones? | Iron kills them | **Fusing iron eats energy; the core collapses: supernova** |
 | 6b | How does Atlas know it's happening? | The warning | **Ghost particles, neutrinos, rush out before the light** |
@@ -67,9 +67,9 @@ No still-image fallback for these five: if a clip glitches, regenerate it.
 | 0:00–0:09 | **HOOK** | [awed, then tense] How long does a star live? Our Sun: ten billion years. This giant? A few million. And it's dying... right now. | `[SHOT 1 (H1): Atlas in his patched cream space suit and glass bubble helmet on a dark rocky moon, tiny against a titanic boiling red star that fills the sky, plasma loops arching off its edge]` → `[SHOT 2: the brass heat gauge on his wrist; the needle creeps up]` `[TEXT: "How Long Does a Star Live?"]` | Deep rumble, crackling plasma |
 | 0:09–0:19 | **WOW 1** | What is a star? A ball of gas. Three-quarters hydrogen, the rest mostly helium. On our Sun, each of these boiling bubbles... is the size of Texas. | `[SHOT 3 (H2): extreme close-up of the star's surface: a honeycomb of boiling bright cells with dark edges, rising and sinking]` → `[SHOT 3B: the camera pulls back from one single bubble until a faint, glowing outline of Texas fits inside it]` | Roaring, bubbling hiss |
 | 0:19–0:25 | **WOW 2** | Our Sun fuses six hundred million tons of hydrogen... every second. | `[SHOT 4: our own yellow Sun, calm and bright, seen from Earth's orbit]` → `[SHOT 5 (H3): the camera dives through the glowing layers into a blinding core where tiny atoms collide and flash]` | Whoosh in, rhythmic flashes |
-| 0:25–0:34 | Question → answer | Why do giants die young? Because they burn their fuel far faster. The smallest stars? They can burn for a trillion years. | `[SHOT 6: side by side: a small calm yellow star glowing gently, and a giant blazing star roaring like a bonfire]` → `[SHOT 6B: a tiny, calm red star glowing steadily while a time-lapse sky of galaxies wheels and changes around it]` | Bonfire roar, then a slow, calm tone |
+| 0:25–0:34 | Question → answer | Why does this giant die so young? Because the bigger the star, the faster it burns its fuel. The smallest stars? They can burn for a trillion years. | `[SHOT 6: side by side: a small calm yellow star glowing gently, and a giant blazing star roaring like a bonfire]` → `[SHOT 6B: a tiny, calm red star glowing steadily while a time-lapse sky of galaxies wheels and changes around it]` | Bonfire roar, then a slow, calm tone |
 | 0:34–0:42 | **WOW 3** | How it dies depends on its size. Small stars like our Sun swell, then shrink into a white dwarf. | `[SHOT 7: time-lapse: a yellow star swells into a huge red giant, its outer layers drift away as a glowing ring, leaving a tiny white-hot dot]` | Slow swell, then a soft ping |
-| 0:42–0:51 | **WOW 4 + name** | Giants fuse all the way to iron. But iron eats energy. The fire dies, the core collapses... *Supernova.* | `[SHOT 8: inside the giant: onion-like glowing layers, the very centre turning dull grey-metal]` → `[SHOT 9: the star detector needle jumps; Comet pops out of the satchel in his tiny fishbowl helmet, fur on end]` → `[SHOT 10: one beat of darkness]` → `[SHOT 11 (H4): the iron core crumples inward, then the whole star bursts outward in a shockwave of light]` | Draining tone, "mrrp!", **silence**, then a huge boom |
+| 0:42–0:51 | **WOW 4 + name** | Big stars fuse all the way to iron. But iron eats energy. The fire dies, the core collapses... *Supernova.* | `[SHOT 8: inside the giant: onion-like glowing layers, the very centre turning dull grey-metal]` → `[SHOT 9: the star detector needle jumps; Comet pops out of the satchel in his tiny fishbowl helmet, fur on end]` → `[SHOT 10: one beat of darkness]` → `[SHOT 11 (H4): the iron core crumples inward, then the whole star bursts outward in a shockwave of light]` | Draining tone, "mrrp!", **silence**, then a huge boom |
 | 0:51–0:58 | **The warning (WOW 5)** | [detector clicking wildly] And that's my warning. Ghost particles called neutrinos rush out first... before the light. That's my head start. | `[SHOT 11B: faint glowing streaks pour out of the dying star and pass straight through Atlas, the rock and the moon; the detector on his wrist clicks like mad]` → `[SHOT 11C: Atlas glances back at the star, still dark at its heart, the shockwave not yet out; he grabs his thruster controls]` | Rapid clicking, ghostly whoosh, held breath |
 | 0:58–1:08 | **TWIST + WOW 6** | Here's the twist: you'd think the gold in your ring came from explosions like this. Scientists think much of it didn't. It was made when two dead stars crashed together. | `[SHOT 12: close-up of a gold ring glowing in warm light]` → `[SHOT 12B: two small, ultra-dense dead stars spiral around each other faster and faster, then smash together in a flash that sprays glittering golden sparks into space]` | Music swells, a bright chime on the gold |
 | 1:08–1:14 | **Worry answered** | Will our Sun explode? No. Too small. In five billion years, it'll swell, then fade. | `[SHOT 13: Atlas's cabin at dawn, the gentle yellow Sun rising over the mountains, peaceful]` | Calm, warm tone |
@@ -78,7 +78,7 @@ No still-image fallback for these five: if a clip glitches, regenerate it.
 
 ## Narration word count
 
-~202 words. Expected final length ≈ 1:45 with the 0.90× slow-down (Episode 2: 141 words → 74.8 s).
+~209 words. Expected final length ≈ 1:45–1:50 with the 0.90× slow-down (Episode 2: 141 words → 74.8 s).
 Longer than the usual 140–150 words by creator decision (2026-10-29), because the topic carries it.
 
 **Pronunciation:** supernova = *SOO-per-NOH-vuh*; neutrinos = *new-TREE-nohs*.
@@ -89,10 +89,10 @@ Longer than the usual 140–150 words by creator decision (2026-10-29), because 
 > What is a star? A ball of gas. Three-quarters hydrogen, the rest mostly helium.
 > On our Sun, each of these boiling bubbles... is the size of Texas.
 > Our Sun fuses six hundred million tons of hydrogen... every second.
-> Why do giants die young? Because they burn their fuel far faster.
+> Why does this giant die so young? Because the bigger the star, the faster it burns its fuel.
 > The smallest stars? They can burn for a trillion years.
 > How it dies depends on its size. Small stars like our Sun swell, then shrink into a white dwarf.
-> Giants fuse all the way to iron. But iron eats energy. The fire dies, the core collapses... Supernova.
+> Big stars fuse all the way to iron. But iron eats energy. The fire dies, the core collapses... Supernova.
 > And that's my warning. Ghost particles called neutrinos rush out first... before the light. That's my head start.
 > Here's the twist: you'd think the gold in your ring came from explosions like this.
 > Scientists think much of it didn't. It was made when two dead stars crashed together.
@@ -110,10 +110,10 @@ Longer than the usual 140–150 words by creator decision (2026-10-29), because 
 - "The smallest stars can burn for a trillion years" matches fact 14 (red dwarfs: a trillion years or more).
 - "Ghost particles called neutrinos rush out first... before the light" matches facts 3–4 (most of the energy leaves as neutrinos; in SN 1987A they arrived ~2–3 hours before the light). "That's my head start" is story framing based on that delay.
 - "Our Sun fuses six hundred million tons of hydrogen every second" matches fact 13 (~600 million tons per second; sources 600–674).
-- "Giants... burn their fuel far faster" matches fact 14 (lifespan falls as mass rises).
+- "The bigger the star, the faster it burns its fuel" matches fact 14 (lifespan falls as mass rises).
 - "How a star dies depends on its size" matches fact 16.
 - "Small stars like our Sun swell, then shrink into a white dwarf" matches facts 15–16 (red giant, then white dwarf).
-- "Giants fuse all the way to iron. Iron eats energy. The core collapses... Supernova" matches facts 1–2 and 16 (stars above ~8 solar masses).
+- "Big stars fuse all the way to iron. Iron eats energy. The core collapses... Supernova" matches facts 1–2 and 16 (stars above ~8 solar masses).
 - "You'd think the gold came from explosions like this. Scientists think much of it didn't. It was made when two dead stars crashed together" matches fact 6 (supernovae make some gold; neutron-star collisions likely make much more, e.g. "a moon's worth vs. a Jupiter-mass"). Hedged with "scientists think" and "much", because a newer study says collisions can't explain *all* gold; put that nuance in the description. "Dead stars" = neutron stars.
 - "Will our Sun explode? No. It's too small" matches fact 16.
 - "In five billion years, it'll swell, then fade" matches fact 15 (~5 billion years of hydrogen left, then red giant, then white dwarf).
