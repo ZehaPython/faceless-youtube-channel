@@ -52,7 +52,7 @@ From Episode 2, Atlas is simply on location in each Short (see `channel/format.m
 | Gear | Description (use in prompts) | First episode |
 |---|---|---|
 | Diving helmet | antique round brass diving helmet with a large round glass faceplate, a small lamp on top, brass bolts and a coiled brass air hose, worn over his scarf (reference: `channel/reference/atlas-diving-helmet.png`) | Dark oxygen |
-| Space suit | patched cream canvas space suit with brass fittings and a glass bubble helmet, his green scarf tucked inside | Supernova |
+| Space suit | patched cream canvas space suit with brass fittings and one large clear glass bubble helmet on a brass neck ring (whole head and both ears inside), green scarf around the collar (reference: `production/supernova/preview/first-frame-v3-art.png`) | Supernova |
 
 Comet the cat stows away in the satchel (a tiny fishbowl helmet underwater or in space).
 

@@ -31,7 +31,7 @@ voice 97.1 s, plus a ~2 s hold on the black hole, ≈ **1:39**). ★ = hero shot
 
 ## First shot (preview)
 
-- Art: `preview/first-frame-v1-art.png` (also Atlas's new space-suit look)
-- Animation: `preview/first-frame-v2-anim.mp4` (Kling 3.0 Pro, 6 s, 1080×1920). Attempt 1 was rejected: Kling made
+- Art: `preview/first-frame-v3-art.png` (Atlas's space-suit look; v1 had an ear poking out of the helmet)
+- Animation: `preview/first-frame-v3-anim.mp4` (Kling 3.0 Pro, 6 s, 1080×1920). Attempt 1 was rejected: Kling made
   glowing blobs fly off the star and blew the scarf in a wind (there's no wind in space).
-- Preview with hook text and voice: `preview/first-frame-v2-preview.mp4`; still: `preview/first-frame-v2.png`
+- Preview with hook text and voice: `preview/first-frame-v3-preview.mp4`; still: `preview/first-frame-v3.png`
