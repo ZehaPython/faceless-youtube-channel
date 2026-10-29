@@ -19,7 +19,7 @@ After Dark Oxygen the channel pivots to well-known space topics (big search dema
 
 | # | Idea | Slug | Status | Atlas's danger / hook |
 |---|------|------|--------|------|
-| 3 | Supernovae: the explosion that made the oxygen in your lungs | supernova | Script draft v4 (`scripts/supernova.md`, ~1:40), awaiting approval | On a planet next to a star about to explode; neutrinos arrive first as the warning |
+| 3 | Supernovae: how stars live and die | supernova | Script draft v5 (`scripts/supernova.md`, ~1:45), awaiting approval | On a planet next to a star about to explode; neutrinos arrive first as the warning |
 | 4 | Black holes: what happens if you fall in? | black-holes | Researched (`research/black-holes.md`) | Falling in; his watch shows time slowing. Crowded topic, so use fresh angles (nearest black hole, the "singing" black hole) |
 | 5 | The Dark Forest: why the universe might be silent on purpose | dark-forest | Researched (`research/dark-forest.md`) | Picks up an alien signal: answer or stay silent? We already "shouted" in 1974 (Arecibo) |
 | 6 | Neutron stars and magnetars: a teaspoon weighs a mountain | neutron-stars | Idea | The gravity and magnetism nearly rip Atlas's gear apart |

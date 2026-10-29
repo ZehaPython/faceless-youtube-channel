@@ -1,6 +1,10 @@
 # Script: supernova (Episode 3)
 
-**Status: draft v4. Awaiting creator approval.** (v1–v3 in Git history.)
+**Status: draft v5. Awaiting creator approval.** (v1–v4 in Git history.)
+
+**v5 changes (creator):** the 1987 line is removed (it didn't make sense in the story); the neutrino warning is
+rephrased so it explains Atlas's head start. The "you're made of this" twist (too similar to Episode 2's oxygen
+ending) is replaced with a **gold** twist.
 
 **v4 change:** ~30 s longer (creator: "if the video is interesting"). Three wow facts added, not filler: the
 Texas-sized bubbles on the Sun (narrates hero shot H2), the trillion-year red dwarfs (completes the lifespan
@@ -29,8 +33,8 @@ and die.**
 | 4 | Why do giants die young? | "Because they burn their fuel far faster" | **The smallest stars can burn for a trillion years** |
 | 5 | What happens when a star dies? | Depends on its size | **Small stars swell, then shrink into a white dwarf** |
 | 6 | And the big ones? | Iron kills them | **Fusing iron eats energy; the core collapses: supernova** |
-| 6b | How does Atlas know it's happening? | The warning | **Neutrinos rush out first; in 1987 they reached Earth hours before the light** |
-| 7 | Why should *I* care? (twist) | You're made of this | **The oxygen you breathe was forged in stars and blasted out** |
+| 6b | How does Atlas know it's happening? | The warning | **Ghost particles, neutrinos, rush out before the light** |
+| 7 | Is all the gold from explosions like this? (twist) | No, much of it likely isn't | **Scientists think much of the gold was made when two dead stars crashed together** |
 | 8 | Will our Sun explode? (the obvious worry) | No | **It's too small; it'll swell, then fade, in ~5 billion years** |
 | 9 | Does Atlas make it? | Resolution | — |
 | 10 | What's left of the star? | The final reveal | **The biggest giants leave behind a black hole** |
@@ -66,15 +70,15 @@ No still-image fallback for these five: if a clip glitches, regenerate it.
 | 0:25–0:34 | Question → answer | Why do giants die young? Because they burn their fuel far faster. The smallest stars? They can burn for a trillion years. | `[SHOT 6: side by side: a small calm yellow star glowing gently, and a giant blazing star roaring like a bonfire]` → `[SHOT 6B: a tiny, calm red star glowing steadily while a time-lapse sky of galaxies wheels and changes around it]` | Bonfire roar, then a slow, calm tone |
 | 0:34–0:42 | **WOW 3** | How it dies depends on its size. Small stars like our Sun swell, then shrink into a white dwarf. | `[SHOT 7: time-lapse: a yellow star swells into a huge red giant, its outer layers drift away as a glowing ring, leaving a tiny white-hot dot]` | Slow swell, then a soft ping |
 | 0:42–0:51 | **WOW 4 + name** | Giants fuse all the way to iron. But iron eats energy. The fire dies, the core collapses... *Supernova.* | `[SHOT 8: inside the giant: onion-like glowing layers, the very centre turning dull grey-metal]` → `[SHOT 9: the star detector needle jumps; Comet pops out of the satchel in his tiny fishbowl helmet, fur on end]` → `[SHOT 10: one beat of darkness]` → `[SHOT 11 (H4): the iron core crumples inward, then the whole star bursts outward in a shockwave of light]` | Draining tone, "mrrp!", **silence**, then a huge boom |
-| 0:51–1:01 | **The warning (WOW 5)** | [detector clicking wildly] And that's my warning. Ghost particles called neutrinos rush out first. In 1987, they reached Earth hours before the light. | `[SHOT 11B: faint glowing streaks pour out of the dying star and pass straight through Atlas, the rock and the moon; the detector on his wrist clicks like mad]` → `[SHOT 11C: 1987: a vast underground tank lined with glowing sensors lights up in the dark; above ground, a calm night sky with no new star yet]` | Rapid clicking, ghostly whoosh, then hushed silence |
-| 1:01–1:09 | **TWIST + WOW 6** | Here's the twist: you're made of this. The oxygen you breathe was forged in stars like this, and blasted out. | `[SHOT 12: a glowing cloud of star-dust drifts through space and settles into a young blue planet; then a close-up of a breath fogging in cold air, sparkling]` | Music swells softly |
-| 1:09–1:15 | **Worry answered** | Will our Sun explode? No. Too small. In five billion years, it'll swell, then fade. | `[SHOT 13: Atlas's cabin at dawn, the gentle yellow Sun rising over the mountains, peaceful]` | Calm, warm tone |
-| 1:15–1:18 | **Resolution** | [the ground shakes] But this one won't wait. Time to go! | `[SHOT 14: back on the moon: the giant star flares white behind Atlas; he fires his suit thrusters]` → `[SHOT 15: a tiny silhouette of Atlas and Comet streaking away ahead of a blinding wall of light]` | Rumble, thruster whoosh, music hit |
-| 1:18–1:25 | **Final reveal (WOW 7)** | [safe, looking back, hushed] This giant was so big, its leftover core collapses... into a black hole. | `[SHOT 16 (H5): from a safe distance, Atlas floats and looks back over his shoulder; the glowing cloud of the explosion spreads, and at its heart a perfectly black sphere forms, ringed by a thin bright halo of bent light; it slowly swallows the glow around it. Hold on this image]` | Music falls away to a deep, low hum; one final heartbeat; cut to black |
+| 0:51–0:58 | **The warning (WOW 5)** | [detector clicking wildly] And that's my warning. Ghost particles called neutrinos rush out first... before the light. That's my head start. | `[SHOT 11B: faint glowing streaks pour out of the dying star and pass straight through Atlas, the rock and the moon; the detector on his wrist clicks like mad]` → `[SHOT 11C: Atlas glances back at the star, still dark at its heart, the shockwave not yet out; he grabs his thruster controls]` | Rapid clicking, ghostly whoosh, held breath |
+| 0:58–1:08 | **TWIST + WOW 6** | Here's the twist: you'd think the gold in your ring came from explosions like this. Scientists think much of it didn't. It was made when two dead stars crashed together. | `[SHOT 12: close-up of a gold ring glowing in warm light]` → `[SHOT 12B: two small, ultra-dense dead stars spiral around each other faster and faster, then smash together in a flash that sprays glittering golden sparks into space]` | Music swells, a bright chime on the gold |
+| 1:08–1:14 | **Worry answered** | Will our Sun explode? No. Too small. In five billion years, it'll swell, then fade. | `[SHOT 13: Atlas's cabin at dawn, the gentle yellow Sun rising over the mountains, peaceful]` | Calm, warm tone |
+| 1:14–1:17 | **Resolution** | [the ground shakes] But this one won't wait. Time to go! | `[SHOT 14: back on the moon: the giant star flares white behind Atlas; he fires his suit thrusters]` → `[SHOT 15: a tiny silhouette of Atlas and Comet streaking away ahead of a blinding wall of light]` | Rumble, thruster whoosh, music hit |
+| 1:17–1:24 | **Final reveal (WOW 7)** | [safe, looking back, hushed] This giant was so big, its leftover core collapses... into a black hole. | `[SHOT 16 (H5): from a safe distance, Atlas floats and looks back over his shoulder; the glowing cloud of the explosion spreads, and at its heart a perfectly black sphere forms, ringed by a thin bright halo of bent light; it slowly swallows the glow around it. Hold on this image]` | Music falls away to a deep, low hum; one final heartbeat; cut to black |
 
 ## Narration word count
 
-~194 words. Expected final length ≈ 1:40–1:45 with the 0.90× slow-down (Episode 2: 141 words → 74.8 s).
+~202 words. Expected final length ≈ 1:45 with the 0.90× slow-down (Episode 2: 141 words → 74.8 s).
 Longer than the usual 140–150 words by creator decision (2026-10-29), because the topic carries it.
 
 **Pronunciation:** supernova = *SOO-per-NOH-vuh*; neutrinos = *new-TREE-nohs*.
@@ -89,10 +93,9 @@ Longer than the usual 140–150 words by creator decision (2026-10-29), because 
 > The smallest stars? They can burn for a trillion years.
 > How it dies depends on its size. Small stars like our Sun swell, then shrink into a white dwarf.
 > Giants fuse all the way to iron. But iron eats energy. The fire dies, the core collapses... Supernova.
-> And that's my warning. Ghost particles called neutrinos rush out first.
-> In 1987, they reached Earth hours before the light.
-> Here's the twist: you're made of this.
-> The oxygen you breathe was forged in stars like this, and blasted out.
+> And that's my warning. Ghost particles called neutrinos rush out first... before the light. That's my head start.
+> Here's the twist: you'd think the gold in your ring came from explosions like this.
+> Scientists think much of it didn't. It was made when two dead stars crashed together.
 > Will our Sun explode? No. Too small. In five billion years, it'll swell, then fade.
 > But this one won't wait. Time to go!
 > This giant was so big, its leftover core collapses... into a black hole.
@@ -105,19 +108,18 @@ Longer than the usual 140–150 words by creator decision (2026-10-29), because 
 - "Three-quarters hydrogen, the rest mostly helium" matches fact 12 (~71–73% hydrogen, ~25–27% helium by mass, ~2% heavier).
 - "On our Sun, each of these boiling bubbles is the size of Texas" matches fact 18 (granules, each roughly the size of Texas). Spoken about *our Sun*, while the shot shows the giant's surface.
 - "The smallest stars can burn for a trillion years" matches fact 14 (red dwarfs: a trillion years or more).
-- "Ghost particles called neutrinos rush out first" matches facts 3–4 (99% of the energy leaves as neutrinos; they escape before the light).
-- "In 1987, they reached Earth hours before the light" matches fact 4 (SN 1987A, ~2–3 hours).
+- "Ghost particles called neutrinos rush out first... before the light" matches facts 3–4 (most of the energy leaves as neutrinos; in SN 1987A they arrived ~2–3 hours before the light). "That's my head start" is story framing based on that delay.
 - "Our Sun fuses six hundred million tons of hydrogen every second" matches fact 13 (~600 million tons per second; sources 600–674).
 - "Giants... burn their fuel far faster" matches fact 14 (lifespan falls as mass rises).
 - "How a star dies depends on its size" matches fact 16.
 - "Small stars like our Sun swell, then shrink into a white dwarf" matches facts 15–16 (red giant, then white dwarf).
 - "Giants fuse all the way to iron. Iron eats energy. The core collapses... Supernova" matches facts 1–2 and 16 (stars above ~8 solar masses).
-- "The oxygen you breathe was forged in stars like this, and blasted out" matches fact 5.
+- "You'd think the gold came from explosions like this. Scientists think much of it didn't. It was made when two dead stars crashed together" matches fact 6 (supernovae make some gold; neutron-star collisions likely make much more, e.g. "a moon's worth vs. a Jupiter-mass"). Hedged with "scientists think" and "much", because a newer study says collisions can't explain *all* gold; put that nuance in the description. "Dead stars" = neutron stars.
 - "Will our Sun explode? No. It's too small" matches fact 16.
 - "In five billion years, it'll swell, then fade" matches fact 15 (~5 billion years of hydrogen left, then red giant, then white dwarf).
 - "This giant was so big, its leftover core collapses into a black hole" matches fact 20 (a leftover core above ~2.8 Suns becomes a black hole; smaller ones become neutron stars). Atlas's giant is one of the biggest, so it's accurate for *this* star. Don't generalise it to all supernovae.
 - Visual only (not spoken): the boiling surface cells (fact 18), the planetary-nebula ring around the white dwarf (fact 15).
-- Not used: Betelgeuse (facts 8–10), 1604 (fact 7), core and surface temperatures (fact 19, unverified).
+- Not used: oxygen from supernovae (fact 5; too similar to Episode 2), 1987 neutrino timing as a spoken line (fact 4; kept only as the basis for "before the light"), Betelgeuse (facts 8–10), 1604 (fact 7), core and surface temperatures (fact 19, unverified).
 
 ## Title options
 
