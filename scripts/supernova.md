@@ -1,6 +1,9 @@
 # Script: supernova (Episode 3)
 
-**Status: draft v2. Awaiting creator approval.** (v1 in Git history.)
+**Status: draft v3. Awaiting creator approval.** (v1–v2 in Git history.)
+
+**v3 change:** the episode now ends with what's left of the giant's core collapsing into a **black hole**: a
+strong final image and a natural lead into the black-hole episode, without a "next episode" line.
 Format: YouTube Short, 9:16, ~60–70 s at a calm pace. Thriller format (`channel/format.md`). Stands on its own.
 Narrator: Atlas. Research: `research/supernova.md` (facts 1–18). Model: `scripts/dark-oxygen.md`.
 
@@ -24,7 +27,8 @@ and die.**
 | 6 | And the big ones? | Iron kills them | **Fusing iron eats energy; the core collapses: supernova** |
 | 7 | Why should *I* care? (twist) | You're made of this | **The oxygen you breathe was forged in stars and blasted out** |
 | 8 | Will our Sun explode? (the obvious worry) | No | **It's too small; it'll swell, then fade, in ~5 billion years** |
-| 9 | Does Atlas make it? | Resolution, last | — |
+| 9 | Does Atlas make it? | Resolution | — |
+| 10 | What's left of the star? | The final reveal | **The biggest giants leave behind a black hole** |
 
 **The thread on screen:** a brass **heat gauge** on Atlas's space-suit wrist. Its needle creeps up as the star
 swells and flickers, and hits the red zone at the end. No numbers on the dial.
@@ -33,7 +37,7 @@ swells and flickers, and hits the red zone at the end. No numbers on the dial.
 
 ## Hero shots: the star close-ups (must be superb)
 
-The creator wants the star itself to be the star of the episode. These four shots carry the episode and get the
+The creator wants the star itself to be the star of the episode. These five shots carry the episode and get the
 most care in production:
 
 | Shot | What we see | Production note |
@@ -42,22 +46,24 @@ most care in production:
 | **H2** (shot 3) | **Extreme close-up of the surface:** a honeycomb of bright boiling cells with dark edges, rising and sinking (the real Sun's cells are each about the size of Texas, fact 18) | Pro tier; slow push-in; generate 2–3 versions and pick the best |
 | **H3** (shot 5) | **Cutaway of the core:** a blinding white-gold core where tiny atoms collide and flash (fusion), surrounded by glowing layers | Pro tier; start + end frame so the zoom lands inside the core |
 | **H4** (shot 11) | **The collapse and explosion:** the iron core crumples, then the whole star bursts outward in a shockwave of light | Pro tier; start + end frame; this is the climax |
+| **H5** (shot 16) | **The black hole is born:** inside the glowing explosion cloud, a perfectly black sphere with a thin halo of bent light, slowly swallowing the glow | Pro tier; start frame (explosion cloud) + end frame (black hole); the last image of the video, so hold it ~2 s |
 
-No still-image fallback for these four: if a clip glitches, regenerate it.
+No still-image fallback for these five: if a clip glitches, regenerate it.
 
 ## Script
 
 | Time | Beat | Narration (Atlas) | Shot | Sound |
 |---|---|---|---|---|
 | 0:00–0:09 | **HOOK** | [awed, then tense] How long does a star live? Our Sun: ten billion years. This giant? A few million. And it's dying... right now. | `[SHOT 1 (H1): Atlas in his patched cream space suit and glass bubble helmet on a dark rocky moon, tiny against a titanic boiling red star that fills the sky, plasma loops arching off its edge]` → `[SHOT 2: the brass heat gauge on his wrist; the needle creeps up]` `[TEXT: "How Long Does a Star Live?"]` | Deep rumble, crackling plasma |
-| 0:09–0:15 | **WOW 1** | So what is a star? A huge ball of gas. Three-quarters hydrogen, the rest mostly helium. | `[SHOT 3 (H2): extreme close-up of the star's surface: a honeycomb of boiling bright cells with dark edges, rising and sinking]` | Roaring, bubbling hiss |
-| 0:15–0:21 | **WOW 2** | Its core fuses hydrogen into helium. Our Sun burns six hundred million tons... every second. | `[SHOT 4: our own yellow Sun, calm and bright, seen from Earth's orbit]` → `[SHOT 5 (H3): the camera dives through the glowing layers into a blinding core where tiny atoms collide and flash]` | Whoosh in, rhythmic flashes |
+| 0:09–0:15 | **WOW 1** | What is a star? A ball of gas. Three-quarters hydrogen, the rest mostly helium. | `[SHOT 3 (H2): extreme close-up of the star's surface: a honeycomb of boiling bright cells with dark edges, rising and sinking]` | Roaring, bubbling hiss |
+| 0:15–0:21 | **WOW 2** | Our Sun fuses six hundred million tons of hydrogen... every second. | `[SHOT 4: our own yellow Sun, calm and bright, seen from Earth's orbit]` → `[SHOT 5 (H3): the camera dives through the glowing layers into a blinding core where tiny atoms collide and flash]` | Whoosh in, rhythmic flashes |
 | 0:21–0:26 | Question → answer | Why do giants die young? Because they burn their fuel far faster. | `[SHOT 6: side by side: a small calm yellow star glowing gently, and a giant blazing star roaring like a bonfire]` | Bonfire roar |
-| 0:26–0:34 | **WOW 3** | How a star dies depends on its size. Small stars, like our Sun, swell up... then shrink into a white dwarf. | `[SHOT 7: time-lapse: a yellow star swells into a huge red giant, its outer layers drift away as a glowing ring, leaving a tiny white-hot dot]` | Slow swell, then a soft ping |
+| 0:26–0:34 | **WOW 3** | How it dies depends on its size. Small stars like our Sun swell, then shrink into a white dwarf. | `[SHOT 7: time-lapse: a yellow star swells into a huge red giant, its outer layers drift away as a glowing ring, leaving a tiny white-hot dot]` | Slow swell, then a soft ping |
 | 0:34–0:43 | **WOW 4 + name** | Giants fuse all the way to iron. But iron eats energy. The fire dies, the core collapses... *Supernova.* | `[SHOT 8: inside the giant: onion-like glowing layers, the very centre turning dull grey-metal]` → `[SHOT 9: the heat gauge needle hits red; Comet pops out of the satchel in his tiny fishbowl helmet, fur on end]` → `[SHOT 10: one beat of darkness]` → `[SHOT 11 (H4): the iron core crumples inward, then the whole star bursts outward in a shockwave of light]` | Draining tone, "mrrp!", **silence**, then a huge boom |
-| 0:43–0:51 | **TWIST + WOW 5** | Here's the twist: you're made of this. The oxygen you breathe was forged in stars like this... and blasted out when they exploded. | `[SHOT 12: a glowing cloud of star-dust drifts through space and settles into a young blue planet; then a close-up of a breath fogging in cold air, sparkling]` | Music swells softly |
-| 0:51–0:57 | **Worry answered** | Will our Sun explode? No. It's too small. It'll swell, then fade, in about five billion years. | `[SHOT 13: Atlas's cabin at dawn, the gentle yellow Sun rising over the mountains, peaceful]` | Calm, warm tone |
-| 0:57–1:01 | **Resolution (last)** | [the ground shakes] But this one won't wait. Time to go! | `[SHOT 14: back on the moon: the giant star flares white behind Atlas; he fires his suit thrusters]` → `[SHOT 15: a tiny silhouette of Atlas and Comet streaking away ahead of a blinding wall of light; cut to white]` | Rumble, thruster whoosh, music hit |
+| 0:43–0:51 | **TWIST + WOW 5** | Here's the twist: you're made of this. The oxygen you breathe was forged in stars like this, and blasted out. | `[SHOT 12: a glowing cloud of star-dust drifts through space and settles into a young blue planet; then a close-up of a breath fogging in cold air, sparkling]` | Music swells softly |
+| 0:51–0:57 | **Worry answered** | Will our Sun explode? No. Too small. In five billion years, it'll swell, then fade. | `[SHOT 13: Atlas's cabin at dawn, the gentle yellow Sun rising over the mountains, peaceful]` | Calm, warm tone |
+| 0:57–1:00 | **Resolution** | [the ground shakes] But this one won't wait. Time to go! | `[SHOT 14: back on the moon: the giant star flares white behind Atlas; he fires his suit thrusters]` → `[SHOT 15: a tiny silhouette of Atlas and Comet streaking away ahead of a blinding wall of light]` | Rumble, thruster whoosh, music hit |
+| 1:00–1:07 | **Final reveal (WOW 6)** | [safe, looking back, hushed] This giant was so big, its leftover core collapses... into a black hole. | `[SHOT 16 (H5): from a safe distance, Atlas floats and looks back over his shoulder; the glowing cloud of the explosion spreads, and at its heart a perfectly black sphere forms, ringed by a thin bright halo of bent light; it slowly swallows the glow around it. Hold on this image]` | Music falls away to a deep, low hum; one final heartbeat; cut to black |
 
 ## Narration word count
 
@@ -68,15 +74,16 @@ No still-image fallback for these four: if a clip glitches, regenerate it.
 ## Voiceover-only text (for the voice tool)
 
 > How long does a star live? Our Sun: ten billion years. This giant? A few million. And it's dying... right now.
-> So what is a star? A huge ball of gas. Three-quarters hydrogen, the rest mostly helium.
-> Its core fuses hydrogen into helium. Our Sun burns six hundred million tons... every second.
+> What is a star? A ball of gas. Three-quarters hydrogen, the rest mostly helium.
+> Our Sun fuses six hundred million tons of hydrogen... every second.
 > Why do giants die young? Because they burn their fuel far faster.
-> How a star dies depends on its size. Small stars, like our Sun, swell up... then shrink into a white dwarf.
+> How it dies depends on its size. Small stars like our Sun swell, then shrink into a white dwarf.
 > Giants fuse all the way to iron. But iron eats energy. The fire dies, the core collapses... Supernova.
 > Here's the twist: you're made of this.
-> The oxygen you breathe was forged in stars like this... and blasted out when they exploded.
-> Will our Sun explode? No. It's too small. It'll swell, then fade, in about five billion years.
+> The oxygen you breathe was forged in stars like this, and blasted out.
+> Will our Sun explode? No. Too small. In five billion years, it'll swell, then fade.
 > But this one won't wait. Time to go!
+> This giant was so big, its leftover core collapses... into a black hole.
 
 ## Accuracy check (against `research/supernova.md`)
 
@@ -84,15 +91,15 @@ No still-image fallback for these four: if a clip glitches, regenerate it.
 - "This giant? A few million" matches fact 14 (the most massive stars live only millions of years).
 - "It's dying right now" is story framing for Atlas's fictional giant star.
 - "Three-quarters hydrogen, the rest mostly helium" matches fact 12 (~71–73% hydrogen, ~25–27% helium by mass, ~2% heavier).
-- "Its core fuses hydrogen into helium" matches fact 13.
-- "Our Sun burns six hundred million tons every second" matches fact 13 (~600 million tons of hydrogen per second; sources 600–674).
+- "Our Sun fuses six hundred million tons of hydrogen every second" matches fact 13 (~600 million tons per second; sources 600–674).
 - "Giants... burn their fuel far faster" matches fact 14 (lifespan falls as mass rises).
 - "How a star dies depends on its size" matches fact 16.
-- "Small stars, like our Sun, swell up then shrink into a white dwarf" matches facts 15–16 (red giant, then white dwarf).
+- "Small stars like our Sun swell, then shrink into a white dwarf" matches facts 15–16 (red giant, then white dwarf).
 - "Giants fuse all the way to iron. Iron eats energy. The core collapses... Supernova" matches facts 1–2 and 16 (stars above ~8 solar masses).
-- "The oxygen you breathe was forged in stars like this and blasted out" matches fact 5.
+- "The oxygen you breathe was forged in stars like this, and blasted out" matches fact 5.
 - "Will our Sun explode? No. It's too small" matches fact 16.
-- "It'll swell, then fade, in about five billion years" matches fact 15 (~5 billion years of hydrogen left, then red giant, then white dwarf).
+- "In five billion years, it'll swell, then fade" matches fact 15 (~5 billion years of hydrogen left, then red giant, then white dwarf).
+- "This giant was so big, its leftover core collapses into a black hole" matches fact 20 (a leftover core above ~2.8 Suns becomes a black hole; smaller ones become neutron stars). Atlas's giant is one of the biggest, so it's accurate for *this* star. Don't generalise it to all supernovae.
 - Visual only (not spoken): the boiling surface cells (fact 18), the planetary-nebula ring around the white dwarf (fact 15).
 - Not used: neutrinos (facts 3–4, cut for length; good material for the description), Betelgeuse (facts 8–10), 1604 (fact 7), core and surface temperatures (fact 19, unverified).
 
@@ -125,5 +132,5 @@ Hook text (top): "How Long Does a **Star** Live?" (6 words, "Star" in lantern go
   into a planet, the breath shot, the cabin at dawn, the escape.
 - Music: Resolution. SFX: rumble, plasma crackle, roaring hiss, flashes, bonfire roar, ping, "mrrp", silence beat,
   boom, thrusters.
-- ~15 shots → ~17 images (incl. start/end frames) + clips. **Est. $7–10** because of the Pro tier on the hero shots
+- ~16 shots → ~19 images (incl. start/end frames) + clips. **Est. $8–11** because of the Pro tier on the five hero shots
   (Standard was ~$5).

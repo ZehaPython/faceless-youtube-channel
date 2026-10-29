@@ -42,6 +42,9 @@ Example (Dark Oxygen): *"Atlas is running out of oxygen, in the one place where 
     sentence. The last shot can echo the first (visual loop), but don't end on a dangling word like "Maybe..."
     (creator decision after Episode 2). **Put the danger's resolution last** (e.g. "And I'm out. Going up!"):
     land the closing facts first, then end on the action. Facts after the escape feel loose.
+    **Exception: a final reveal that leads into the next topic** is allowed right after the escape, as one short
+    line over a strong last image (e.g. Supernova ends with the leftover core collapsing into a black hole). It must
+    stand on its own: a real fact from the brief, no "next episode" or "see you next time" (creator, 2026-10-29).
 11. **5–7 wow facts per episode, spoken.** Facts people didn't know, that make them say "wait, really?" (e.g. "half your
     oxygen comes from the ocean", "you're two-thirds oxygen"). Each must serve the common thread and be verified in the
     research brief. Spread them out: one in the first 10 s, one at the twist, the biggest at the end.
