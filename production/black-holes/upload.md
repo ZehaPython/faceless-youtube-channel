@@ -1,7 +1,9 @@
 # black-holes: upload text
 
-## Title (recommended)
-What Is a Black Hole, Really?
+## Title (used)
+What Is a Black Hole?
+
+_(Creator's choice, 2026-11-01; recommended was "What Is a Black Hole, Really?")_
 
 Alternatives: "Earth as a Black Hole Would Fit in Your Hand" · "There's a Monster at the Heart of Our Galaxy"
 
