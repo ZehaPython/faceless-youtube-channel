@@ -1,0 +1,108 @@
+{
+ "slug": "black-holes",
+ "voiceover": "audio/voiceover-v1-pad.wav",
+ "voice_speed": 0.9,
+ "music": {
+  "file": "audio/music/resolution-wayne-jones.mp3",
+  "start": 40,
+  "gain": 0.45
+ },
+ "style_refs": [
+  "../../channel/reference/atlas-reference.webp",
+  "../supernova/preview/first-frame-v3-art.png"
+ ],
+ "atlas_prefix": "Use the raccoon from the reference images as the character: keep his exact face, fur, round gold wire-rimmed glasses, his patched cream canvas space suit with brass fittings, the one large clear glass bubble helmet on a brass neck ring with his whole head and both ears inside it, his pine-green scarf around the collar, brown leather satchel and the round brass gauge on his wrist. Keep the same cozy cinematic storybook illustration style and painterly detail as the second reference image. Vertical 9:16 composition: main subject in the middle of the frame, the top quarter darker and calmer (space for on-screen text), the bottom fifth darker (space for captions). Clean illustration only: no text, no title, no lettering, not a poster.",
+ "world_prefix": "Keep the same cozy cinematic storybook illustration style, painterly detail and glowing cosmic lighting as the second reference image. Do not include any raccoon, cat or other character. Vertical 9:16 composition: main subject in the middle of the frame, the top quarter darker and calmer (space for on-screen text), the bottom fifth darker (space for captions). Clean illustration only: no text, no title, no lettering, not a poster.",
+ "negative": "text, letters, words, numbers, watermark, logo, subtitles, poster, title, caption, typography, flat vector, cel shading, anime, neon colours, glossy plastic CGI, photograph, extra limbs, distorted paws, extra fingers, blurry face, duplicate character, human, ears outside the helmet, diving helmet",
+ "video_negative": "morphing, changing outfit, ears passing through the helmet glass, extra limbs, distorted paws, flickering face, text, watermark, wind blowing fabric, fast camera movement, objects flying out",
+ "scenes": [
+  {
+   "id": "01-hook-explosion",
+   "start": 0.0,
+   "end": 2.7,
+   "image": "scenes/01-hook-explosion.png",
+   "motion": "(reused from supernova clip 11)"
+  },
+  {
+   "id": "02-hook-black-hole",
+   "start": 2.7,
+   "end": 6.3,
+   "image": "scenes/02-hook-black-hole.png",
+   "motion": "(reused from supernova clip 16)"
+  },
+  {
+   "id": "04-squeeze",
+   "start": 6.3,
+   "end": 10.8,
+   "prompt": "A huge glowing ball of hot orange and gold star matter floating in dark space, with faint glowing arrows of force pressing in on it from every side, as if invisible hands are crushing it. Dramatic, powerful.",
+   "motion": "The glowing ball of star matter is crushed smaller and smaller from every side, getting brighter and denser as it shrinks, until it is a tiny, intensely bright point. Steady camera."
+  },
+  {
+   "id": "07-light-bend",
+   "start": 10.8,
+   "end": 16.2,
+   "video_model": "kling-video/v3.0/pro/image-to-video",
+   "prompt": "A perfectly black sphere in deep space, surrounded by a thin bright ring of bent golden light; thin beams of white light travel across the dark sky toward it from the left; the stars behind it look warped and stretched into arcs around its edge (gravitational lensing).",
+   "motion": "Thin beams of light travel past the black sphere and curve around it; one beam bends inward and disappears into the blackness. The warped stars behind it shimmer. Very slow push-in."
+  },
+  {
+   "id": "08-horizon",
+   "start": 16.2,
+   "end": 21.6,
+   "prompt": "A perfectly black sphere in deep space, with a thin glowing dashed gold circle drawn around it a little outside its edge, like a line on a map marking the point of no return. A small brass rocket hovers just outside the dashed circle. Swirling faint orange gas in the background.",
+   "motion": "The small brass rocket fires its thruster and curves away from the black sphere, escaping just outside the glowing dashed circle. The dashed circle glows softly. Slow push-in."
+  },
+  {
+   "id": "10-no-surface",
+   "start": 21.6,
+   "end": 26.1,
+   "prompt": "Extremely close to a perfectly black sphere filling most of the frame: there is no ground, no wall, no texture, only perfect darkness, with a thin rim of swirling orange and blue glowing gas curving around its edge and warped stars.",
+   "motion": "The camera glides slowly closer and closer to the perfect darkness; the glowing gas swirls around the rim; nothing on the black surface moves because there is no surface. Slow, smooth push-in."
+  },
+  {
+   "id": "12-spaghetti",
+   "start": 26.1,
+   "end": 30.6,
+   "video_model": "kling-video/v3.0/pro/image-to-video",
+   "prompt": "Near a black hole in dark space: a long glowing ribbon of orange gas is being stretched thin like a strand of spaghetti as it spirals toward a black sphere with a thin ring of light in the upper part of the frame. Atlas floats small in the lower right corner, seen from behind and to the side, watching it; the head of a small grey cat in a tiny fishbowl helmet peeks out of his satchel. Only one raccoon and one cat in the whole image.",
+   "character": true,
+   "motion": "The glowing ribbon of gas stretches longer and thinner like spaghetti as it spirals into the black hole. Atlas watches in alarm from far away; the cat ducks back into the satchel. Slow push-in toward the ribbon."
+  },
+  {
+   "id": "13-thrusters",
+   "start": 30.6,
+   "end": 33.3,
+   "character": true,
+   "prompt": "Atlas in his space suit floating in dark space, seen from the side, firing the brass thrusters on the back of his suit with bright blue flames, pulling away from a black hole with a thin ring of light behind him; the brass gauge on his wrist.",
+   "motion": "The thrusters on Atlas's suit fire bright blue flames and he pulls away from the black hole behind him. Smooth motion."
+  },
+  {
+   "id": "14a-zoom-out-stars",
+   "start": 33.3,
+   "end": 37.8,
+   "video_model": "kling-video/v3.0/pro/image-to-video",
+   "character": true,
+   "prompt": "Atlas floating small in dark space next to a black hole with a thin ring of bent light, glowing orange and blue gas around it, stars all around.",
+   "end_prompt": "A vast field of thousands of stars and glowing pink and blue nebulae in deep space, seen from very far away; in the centre a tiny bright dot where the black hole was. No character visible.",
+   "motion": "One continuous smooth zoom-out: the camera pulls back and back, away from the black hole and tiny Atlas, until they are lost among thousands of stars and glowing nebulae."
+  },
+  {
+   "id": "14b-zoom-out-galaxy",
+   "start": 37.8,
+   "end": 42.3,
+   "video_model": "kling-video/v3.0/pro/image-to-video",
+   "prompt": "A vast field of thousands of stars and glowing pink and blue nebulae in deep space, seen from very far away.",
+   "end_prompt": "Our Milky Way galaxy seen face-on from far above, scientifically accurate: a barred spiral galaxy with a glowing yellow-white central bulge and bar, two major spiral arms and several smaller arms, blue-white star clouds, pink star-forming regions and dark dust lanes along the arms, filling the frame against black space.",
+   "motion": "The camera keeps pulling back smoothly: the star field shrinks into the spiral arms of a huge barred spiral galaxy, until the whole Milky Way fills the frame, turning very slowly."
+  },
+  {
+   "id": "14c-sagittarius",
+   "start": 42.3,
+   "end": 47.7,
+   "video_model": "kling-video/v3.0/pro/image-to-video",
+   "prompt": "The glowing yellow-white heart of the Milky Way seen up close from far above: a dense, bright swarm of countless old stars around the galaxy's centre, wisps of dust and glowing gas.",
+   "end_prompt": "Scientifically accurate view of Sagittarius A*, the black hole at the centre of our galaxy, as imaged by the Event Horizon Telescope: a thick glowing ring of orange-gold hot gas with three brighter knots, around a dark round shadow in the middle; a dense swarm of stars around it in the dark.",
+   "motion": "The camera dives slowly into the bright centre of the galaxy, through the swarm of stars, until a glowing orange ring around a dark shadow fills the frame: the giant black hole. The ring's glow flickers gently."
+  }
+ ]
+}
