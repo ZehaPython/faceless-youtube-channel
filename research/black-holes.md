@@ -24,6 +24,15 @@ spaghetti; fall into a giant one and you might not even notice crossing the edge
 | 8 | **The black hole that sings:** the black hole in the Perseus cluster sends pressure waves through hot gas, a **B-flat about 57 octaves below middle C** (one wave every ~9.5 million years). NASA shifted it up so humans can hear it (2022). | Verified | [NBC News](https://www.nbcnews.com/id/wbna3077738), [ScienceAlert](https://www.sciencealert.com/nasa-recorded-the-sound-from-a-black-hole-and-its-super-eerie), [NPR via OPB](https://www.opb.org/article/2022/05/28/what-does-a-black-hole-sound-like-nasa-has-an-answer/) |
 | 9 | **Biggest:** TON 618, often cited at ~66 billion Suns; a 2019 study measured ~40 billion. Either way, thousands of times Sagittarius A\*. | Verified (estimates vary) | [Guinness World Records](https://www.guinnessworldrecords.com/world-records/76251-heaviest-black-hole), [Wikipedia: TON 618](https://en.wikipedia.org/wiki/TON_618) |
 
+### Added 2026-11-01 (the basics: what a black hole is and where it comes from)
+
+| # | Claim | Status | Source |
+|---|---|---|---|
+| 10 | **Not a hole:** a black hole is a huge mass squeezed into a tiny space. **Earth** would become one only if squeezed to a radius of **~8.9 mm** (a sphere ~1.8 cm across, about a marble). | Verified (calculated Schwarzschild radius; comparisons vary, "marble" best supported) | [Gizmodo](https://gizmodo.com/at-what-point-would-the-earth-become-a-black-hole-5974372), [Vedantu](https://www.vedantu.com/physics/schwarzschild-radius), [Omni calculator](https://cache.omnicalculator.com/physics/schwarzschild-radius) |
+| 11 | **Event horizon = point of no return:** the distance where the escape speed equals the speed of light. Outside it, a strong enough rocket can still get away; inside, escaping would need faster-than-light travel, which is impossible. It is **not a solid surface**. | Verified (NASA) | [NASA Imagine the Universe](https://imagine.gsfc.nasa.gov/educators/lifecycles/LC_main_p12.html), [NASA Session 10 notes](https://imagine.gsfc.nasa.gov/educators/programs/au/docs/presentations/Session_10_notes.pdf), [NASA Black Hole Week](https://svs.gsfc.nasa.gov/14574/) |
+| 12 | **The Sun as a black hole:** squeezed to a radius of **~2.9 km** (about 6 km across). | Verified (Schwarzschild radius) | [IU: What is a black hole?](https://geol105.sitehost.iu.edu/images/gaia_chapter_1/what_is_a_black_hole.htm), [NASA Imagine](https://imagine.gsfc.nasa.gov/educators/lifecycles/LC_main_p12.html) |
+| 13 | **Where they come from:** when a very massive star explodes as a supernova, a leftover core above ~2.8 Suns collapses into a black hole (see `research/supernova.md`, fact 20). | Verified | [CERN Courier](https://cern-courier.web.cern.ch/?p=11230) |
+
 ## Suggested common thread and Atlas's danger
 
 - **Thread:** *"Atlas is falling toward a black hole, and his own pocket watch shows time slowing down."*
