@@ -21,6 +21,7 @@ from pocketsphinx import Decoder
 EXTRA_PRONUNCIATIONS = {
     "polymetallic": "P AA L IY M AH T AE L IH K",
     "prochlorococcus": "P R OW K L AO R AH K AA K AH S",
+    "sagittarius": "S AE JH IH T EH R IY AH S",
 }
 NUMBER_WORDS = {"2024": "twenty twenty four", "2021": "twenty twenty one", "2012": "twenty twelve",
                 "1979": "nineteen seventy nine"}

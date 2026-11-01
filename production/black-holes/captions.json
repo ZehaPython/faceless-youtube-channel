@@ -1,0 +1,172 @@
+{
+ "note": "Times are in audio/voiceover-v1-edit.wav (original speed): phrases-edit.json = phrases.json shifted +1.8 s after 53.5 s for the silent thruster beat.",
+ "hook": {
+  "text": "What Is a<br><b>Black Hole</b>?",
+  "end": 7.25,
+  "position": "top"
+ },
+ "phrases": [
+  [
+   0.0,
+   3.8,
+   "When a giant star <b>explodes,</b> its core can collapse..."
+  ],
+  [
+   4.29,
+   5.15,
+   "into this."
+  ],
+  [
+   5.63,
+   6.76,
+   "A <b>black</b> <b>hole.</b>"
+  ],
+  [
+   7.25,
+   8.37,
+   "Is it really a hole?"
+  ],
+  [
+   8.8,
+   9.28,
+   "<b>No.</b>"
+  ],
+  [
+   9.56,
+   10.51,
+   "It's the <b>opposite.</b>"
+  ],
+  [
+   10.86,
+   14.49,
+   "A huge amount of stuff, crushed into a <b>tiny</b> <b>space.</b>"
+  ],
+  [
+   14.98,
+   16.93,
+   "Crush all of <b>Earth</b> that hard..."
+  ],
+  [
+   17.28,
+   18.95,
+   "and it would be the size of a <b>marble.</b>"
+  ],
+  [
+   19.39,
+   20.81,
+   "So why is it black?"
+  ],
+  [
+   21.23,
+   24.99,
+   "Because its gravity is so strong, <b>not</b> <b>even</b> <b>light</b> can get out."
+  ],
+  [
+   25.43,
+   26.43,
+   "But there's an edge."
+  ],
+  [
+   26.81,
+   28.47,
+   "The point of <b>no</b> <b>return.</b>"
+  ],
+  [
+   28.95,
+   30.81,
+   "It's called the <b>event</b> <b>horizon.</b>"
+  ],
+  [
+   31.3,
+   34.25,
+   "Outside it, a strong enough rocket can still <b>escape.</b>"
+  ],
+  [
+   34.71,
+   38.52,
+   "Inside, you'd have to go <b>faster</b> <b>than</b> <b>light,</b> which isn't possible."
+  ],
+  [
+   38.99,
+   39.85,
+   "Here's the twist:"
+  ],
+  [
+   40.2,
+   41.93,
+   "the edge <b>isn't</b> a surface."
+  ],
+  [
+   42.27,
+   43.35,
+   "There's <b>nothing</b> to touch."
+  ],
+  [
+   43.69,
+   45.8,
+   "Just a line you can <b>never</b> come back from."
+  ],
+  [
+   46.32,
+   47.47,
+   "And if you got too close?"
+  ],
+  [
+   47.91,
+   50.62,
+   "Gravity would pull your <b>feet</b> much harder than your <b>head.</b>"
+  ],
+  [
+   51.03,
+   52.05,
+   "You'd be stretched..."
+  ],
+  [
+   52.35,
+   53.24,
+   "like <b>spaghetti.</b>"
+  ],
+  [
+   55.56,
+   56.69,
+   "Now <b>zoom</b> <b>out.</b>"
+  ],
+  [
+   56.98,
+   57.94,
+   "All the way out."
+  ],
+  [
+   58.43,
+   61.26,
+   "At the heart of our own galaxy waits a black hole..."
+  ],
+  [
+   61.54,
+   64.05,
+   "<b>four</b> <b>million</b> times heavier than the Sun."
+  ],
+  [
+   64.55,
+   65.17,
+   "Its name..."
+  ],
+  [
+   65.54,
+   67.12,
+   "<b>Sagittarius</b> <b>A*.</b>"
+  ]
+ ],
+ "facts": [
+  [
+   28.95,
+   32.41,
+   "Event horizon|the point of no return"
+  ],
+  [
+   65.54,
+   68.95,
+   "Sagittarius A*|the black hole at the heart of our galaxy"
+  ]
+ ]
+}

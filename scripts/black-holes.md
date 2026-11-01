@@ -1,6 +1,6 @@
 # Script: black-holes (Episode 4)
 
-**Status: draft v4. Awaiting creator approval.**
+**Status: v4 approved by creator (2026-11-01); video made.**
 
 **v4 change (creator):** the video ends on the name of our galaxy's black hole: "Its name... Sagittarius A-star."
 

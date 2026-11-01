@@ -1,6 +1,6 @@
 {
  "slug": "black-holes",
- "voiceover": "audio/voiceover-v1-pad.wav",
+ "voiceover": "audio/voiceover-v1-edit.wav",
  "voice_speed": 0.9,
  "music": {
   "file": "audio/music/resolution-wayne-jones.mp3",
@@ -19,50 +19,87 @@
   {
    "id": "01-hook-explosion",
    "start": 0.0,
-   "end": 2.7,
+   "end": 4.29,
    "image": "scenes/01-hook-explosion.png",
    "motion": "(reused from supernova clip 11)"
   },
   {
    "id": "02-hook-black-hole",
-   "start": 2.7,
-   "end": 6.3,
+   "start": 4.29,
+   "end": 7.25,
    "image": "scenes/02-hook-black-hole.png",
    "motion": "(reused from supernova clip 16)"
   },
   {
    "id": "04-squeeze",
-   "start": 6.3,
-   "end": 10.8,
+   "start": 7.25,
+   "end": 14.98,
    "prompt": "A huge glowing ball of hot orange and gold star matter floating in dark space, with faint glowing arrows of force pressing in on it from every side, as if invisible hands are crushing it. Dramatic, powerful.",
    "motion": "The glowing ball of star matter is crushed smaller and smaller from every side, getting brighter and denser as it shrinks, until it is a tiny, intensely bright point. Steady camera."
   },
   {
+   "id": "05-earth-shrink",
+   "prompt": "Our blue planet Earth floating in dark space, with white clouds and blue oceans, being squeezed smaller by a faint glowing force pressing in from all sides; stars around.",
+   "motion": "The Earth shrinks smaller and smaller, crushed from all sides, glowing brighter as it shrinks, until it is a tiny glowing bead. Steady camera.",
+   "start": 14.98,
+   "end": 17.28
+  },
+  {
+   "id": "06-marble",
+   "character": true,
+   "prompt": "Close-up of Atlas's furry paw in a patched cream space-suit sleeve with a brass cuff, holding up a tiny dark glass marble with a faint blue shimmer and a thin ring of light around it, between two fingers; his bubble helmet and amazed face softly blurred behind; dark starry space.",
+   "motion": "Atlas slowly turns the tiny dark marble between his fingers; its faint blue shimmer and ring of light glint. His amazed eyes behind the glass blink. Very slow push-in.",
+   "start": 17.28,
+   "end": 19.39
+  },
+  {
    "id": "07-light-bend",
-   "start": 10.8,
-   "end": 16.2,
+   "start": 19.39,
+   "end": 25.43,
    "video_model": "kling-video/v3.0/pro/image-to-video",
    "prompt": "A perfectly black sphere in deep space, surrounded by a thin bright ring of bent golden light; thin beams of white light travel across the dark sky toward it from the left; the stars behind it look warped and stretched into arcs around its edge (gravitational lensing).",
    "motion": "Thin beams of light travel past the black sphere and curve around it; one beam bends inward and disappears into the blackness. The warped stars behind it shimmer. Very slow push-in."
   },
   {
+   "id": "08a-edge",
+   "prompt": "A perfectly black sphere in deep space with swirling faint orange gas around it, and a thin glowing dashed gold circle drawn around it a little outside its edge, like a line on a map marking the point of no return.",
+   "motion": "The glowing dashed gold circle traces itself around the black sphere, segment by segment, then glows softly. The orange gas swirls slowly. Slow push-in.",
+   "start": 25.43,
+   "end": 31.3
+  },
+  {
    "id": "08-horizon",
-   "start": 16.2,
-   "end": 21.6,
+   "start": 31.3,
+   "end": 34.71,
    "prompt": "A perfectly black sphere in deep space, with a thin glowing dashed gold circle drawn around it a little outside its edge, like a line on a map marking the point of no return. A small brass rocket hovers just outside the dashed circle. Swirling faint orange gas in the background.",
    "motion": "The small brass rocket fires its thruster and curves away from the black sphere, escaping just outside the glowing dashed circle. The dashed circle glows softly. Slow push-in."
   },
   {
+   "id": "09-inside",
+   "prompt": "A perfectly black sphere in deep space with a thin glowing dashed gold circle around it; just inside the dashed circle, a small brass rocket points away from the black sphere, its thruster blazing, but it is tilted toward the darkness.",
+   "motion": "The small brass rocket fires its thruster at full power but still slides slowly backward, inward, toward the black sphere, and disappears into the darkness. Slow push-in.",
+   "start": 34.71,
+   "end": 38.99
+  },
+  {
    "id": "10-no-surface",
-   "start": 21.6,
-   "end": 26.1,
+   "start": 38.99,
+   "end": 46.32,
    "prompt": "Extremely close to a perfectly black sphere filling most of the frame: there is no ground, no wall, no texture, only perfect darkness, with a thin rim of swirling orange and blue glowing gas curving around its edge and warped stars.",
    "motion": "The camera glides slowly closer and closer to the perfect darkness; the glowing gas swirls around the rim; nothing on the black surface moves because there is no surface. Slow, smooth push-in."
   },
   {
+   "id": "11-gauge-red",
+   "character": true,
+   "prompt": "Extreme close-up of the round antique brass gauge on Atlas's space-suit wrist: a cream dial with a single black needle pointing into a red zone, brass bolts around the rim; a black hole with a thin ring of light reflected in the dial glass. No numbers or text on the dial.",
+   "motion": "The needle trembles hard inside the red zone; the reflection of the black hole glints in the glass. Slow push-in.",
+   "start": 46.32,
+   "end": 47.91
+  },
+  {
    "id": "12-spaghetti",
-   "start": 26.1,
-   "end": 30.6,
+   "start": 47.91,
+   "end": 53.4,
    "video_model": "kling-video/v3.0/pro/image-to-video",
    "prompt": "Near a black hole in dark space: a long glowing ribbon of orange gas is being stretched thin like a strand of spaghetti as it spirals toward a black sphere with a thin ring of light in the upper part of the frame. Atlas floats small in the lower right corner, seen from behind and to the side, watching it; the head of a small grey cat in a tiny fishbowl helmet peeks out of his satchel. Only one raccoon and one cat in the whole image.",
    "character": true,
@@ -71,16 +108,16 @@
   },
   {
    "id": "13-thrusters",
-   "start": 30.6,
-   "end": 33.3,
+   "start": 53.4,
+   "end": 54.45,
    "character": true,
    "prompt": "Atlas in his space suit floating in dark space, seen from the side, firing the brass thrusters on the back of his suit with bright blue flames, pulling away from a black hole with a thin ring of light behind him; the brass gauge on his wrist.",
    "motion": "The thrusters on Atlas's suit fire bright blue flames and he pulls away from the black hole behind him. Smooth motion."
   },
   {
    "id": "14a-zoom-out-stars",
-   "start": 33.3,
-   "end": 37.8,
+   "start": 54.45,
+   "end": 57.0,
    "video_model": "kling-video/v3.0/pro/image-to-video",
    "character": true,
    "prompt": "Atlas floating small in dark space next to a black hole with a thin ring of bent light, glowing orange and blue gas around it, stars all around.",
@@ -89,8 +126,8 @@
   },
   {
    "id": "14b-zoom-out-galaxy",
-   "start": 37.8,
-   "end": 42.3,
+   "start": 57.0,
+   "end": 59.45,
    "video_model": "kling-video/v3.0/pro/image-to-video",
    "prompt": "A vast field of thousands of stars and glowing pink and blue nebulae in deep space, seen from very far away.",
    "end_prompt": "Our Milky Way galaxy seen face-on from far above, scientifically accurate: a barred spiral galaxy with a glowing yellow-white central bulge and bar, two major spiral arms and several smaller arms, blue-white star clouds, pink star-forming regions and dark dust lanes along the arms, filling the frame against black space.",
@@ -99,8 +136,8 @@
   },
   {
    "id": "14c-sagittarius",
-   "start": 42.3,
-   "end": 47.7,
+   "start": 59.45,
+   "end": 68.95,
    "video_model": "kling-video/v3.0/pro/image-to-video",
    "prompt": "The glowing yellow-white heart of the Milky Way seen up close from far above: a dense, bright swarm of countless old stars around the galaxy's centre, wisps of dust and glowing gas.",
    "end_prompt": "Scientifically accurate view of Sagittarius A*, the black hole at the centre of our galaxy, as imaged by the Event Horizon Telescope: a thick glowing ring of orange-gold hot gas with three brighter knots, around a dark round shadow in the middle; a dense swarm of stars around it in the dark.",
