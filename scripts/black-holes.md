@@ -1,6 +1,8 @@
 # Script: black-holes (Episode 4)
 
-**Status: draft v3. Awaiting creator approval.**
+**Status: draft v4. Awaiting creator approval.**
+
+**v4 change (creator):** the video ends on the name of our galaxy's black hole: "Its name... Sagittarius A-star."
 
 **v3 change (creator):** the "Could one swallow Earth?" line is gone. The video ends on a big zoom-out with a goodbye punch: the giant black hole at the heart of our own galaxy.
 
@@ -31,7 +33,7 @@ That's five real questions; everything else answers them.
 **The thread on screen:** a brass **edge gauge** on Atlas's wrist: a single needle creeping toward a red zone (the
 event horizon). No numbers on the dial. It drops back out of the red at the very end.
 
-**Name box (the only on-screen box):** "Event horizon", when Atlas says it.
+**Name boxes:** "Event horizon" when it's said, and **"Sagittarius A\*"** on the final galaxy hold (the spelling with the star symbol, which you can't hear). Both are names, so they follow rule 11.
 
 ## Script
 
@@ -44,13 +46,13 @@ event horizon). No numbers on the dial. It drops back out of the red at the very
 | 0:46–0:55 | **TWIST** | Here's the twist: the edge isn't a surface. There's nothing to touch. Just a line you can never come back from. | `[SHOT 10: the camera glides right up to the black sphere: no ground, no wall, only darkness and the swirling glow of gas around it]` | Music drops to a single held note |
 | 0:55–1:05 | **WOW 4 (danger)** | And if you got too close? Gravity would pull your feet much harder than your head. You'd be stretched... like spaghetti. | `[SHOT 11: the edge gauge on Atlas's wrist: the needle hits the red zone]` → `[SHOT 12: a glowing ribbon of gas near the black hole stretches long and thin like spaghetti as it spirals in; Atlas watches from a distance, Comet peeking out of the satchel in his fishbowl helmet, alarmed]` | Rising stretch tone, "mrrp?!" |
 | 1:05–1:07 | **Silent beat** | *(no narration)* | `[SHOT 13: Atlas fires his suit thrusters, blue flames, and pulls away from the edge; the gauge needle drops out of the red]` | Thruster roar, relieved breath |
-| 1:07–1:17 | **GOODBYE PUNCH (final reveal)** | [slow, hushed, then the last words land hard] Now zoom out. All the way out. At the heart of our own galaxy waits a black hole... four million times heavier than the Sun. | `[SHOT 14 ★: one continuous zoom-out: from the black hole and tiny Atlas, out through glowing gas, past stars, out and out until the whole spiral Milky Way fills the frame; at its bright centre, a dark core with a ring of light (start frame: the black hole with Atlas; end frame: the whole Milky Way from above)]` → hold ~1.5 s on the galaxy, cut to black | Music swells with the zoom, then one deep bass hit on "Sun"; silence |
+| 1:07–1:20 | **GOODBYE PUNCH (final reveal)** | [slow, hushed, then the last words land hard] Now zoom out. All the way out. At the heart of our own galaxy waits a black hole... four million times heavier than the Sun. Its name... Sagittarius A-star. | `[SHOT 14 ★: one continuous zoom-out: from the black hole and tiny Atlas, out through glowing gas, past stars, out and out until the whole spiral Milky Way fills the frame; at its bright centre, a dark core with a ring of light (start frame: the black hole with Atlas; end frame: the whole Milky Way from above)]` → hold ~1.5 s on the galaxy, cut to black | Music swells with the zoom, then one deep bass hit on "Sun"; the name lands on the final hold; silence |
 
 ## Narration word count
 
-~166 words. Expected final length ≈ 1:18 (incl. ~2 s silent thruster beat and ~1.5 s hold) at the 0.90× slow-down (Episode 3: 209 words → 97 s).
+~170 words. Expected final length ≈ 1:20 (incl. ~2 s silent thruster beat and ~1.5 s hold) at the 0.90× slow-down (Episode 3: 209 words → 97 s).
 
-**Pronunciation:** horizon = *huh-RYE-zun*.
+**Pronunciation:** horizon = *huh-RYE-zun*; Sagittarius A-star = *SAJ-ih-TAIR-ee-us AY star* (written "A-star" so the voice tool doesn't read the asterisk).
 
 ## Voiceover-only text (for the voice tool)
 
@@ -62,7 +64,7 @@ event horizon). No numbers on the dial. It drops back out of the red at the very
 > Outside it, a strong enough rocket can still escape. Inside, you'd have to go faster than light, which isn't possible.
 > Here's the twist: the edge isn't a surface. There's nothing to touch. Just a line you can never come back from.
 > And if you got too close? Gravity would pull your feet much harder than your head. You'd be stretched... like spaghetti.
-> Now zoom out. All the way out. At the heart of our own galaxy waits a black hole... four million times heavier than the Sun.
+> Now zoom out. All the way out. At the heart of our own galaxy waits a black hole... four million times heavier than the Sun. Its name... Sagittarius A-star.
 
 ## Accuracy check
 
@@ -72,7 +74,7 @@ event horizon). No numbers on the dial. It drops back out of the red at the very
 - "Event horizon, point of no return; outside a rocket can escape, inside you'd need faster than light" matches fact 11 (NASA).
 - "The edge isn't a surface" matches fact 11 (NASA: not a physical boundary).
 - "Feet pulled harder than head, stretched like spaghetti" matches fact 2. Accurate for *this* black hole: a small, star-sized one stretches you before the edge. (Don't say it for giant ones, fact 3.)
-- "At the heart of our own galaxy, a black hole four million times heavier than the Sun" matches fact 5 (Sagittarius A*, ~4 million Suns, imaged 2022).
+- "At the heart of our own galaxy, a black hole four million times heavier than the Sun" matches fact 5 (Sagittarius A*, ~4 million Suns, imaged 2022). The name is spelled "Sagittarius A*" and said "A-star".
 - Not used: time slowing down (fact 4), the nearest black hole (7, cut by creator in v3), M87* (6), the singing black hole (8), TON 618 (9), the Sun-sized horizon (12). Saved for a later episode.
 
 ## Title options
