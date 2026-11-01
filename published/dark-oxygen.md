@@ -11,6 +11,7 @@
 |---|---|---|---|---|---|---|
 | 24 h | | | | | | |
 | ~41 h (1 day 17 h) | 31 | _not yet checked_ | **155.8%** | 0 | 0 | _?_ |
+| 2026-11-01 (~7 days) | 40 | _?_ | ~48% (≈36 s avg, from 0.4 h watch time) | _?_ | _?_ | 0 |
 | 7 days | | | | | | |
 
 **Traffic sources (first ~48 h, 31 views):** YouTube search 35.5% · Shorts feed 25.8% · Browse features 19.4% ·
@@ -18,7 +19,8 @@ Channel pages 19.4%.
 
 **Retention graph:** not available yet (YouTube says processing can take up to two days).
 
-## Learnings for the next script
+## Learnings
+- 2026-11-01: 40 views, 106 impressions, 3.8% thumbnail CTR (best of the three). for the next script
 - 2026-10-27: avg. % viewed 155.8%: viewers who watch tend to rewatch (the visual loop back to the bubbling rock
   seems to work). Small sample (31 views, may include the creator's own plays), so treat it as a hint, not proof.
 - Reach is still low (normal for a brand-new channel's first Short). Key missing number: "viewed vs. swiped away".
