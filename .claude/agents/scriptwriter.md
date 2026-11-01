@@ -31,6 +31,9 @@ Before writing, read:
 - **Answer every question immediately and plainly.** If you ask "So why isn't everyone celebrating?", the very next
   sentence starts with "Because..." and gives the answer in one short line. Then explain. Never leave the viewer
   to connect two facts themselves.
+- **Every question must be genuinely fascinating** (creator, 2026-11-01). Ask the question a curious viewer would
+  blurt out ("Could I fall in and survive?", "What would I see?"), not a textbook one ("What is an event horizon?").
+  Test: would someone stop scrolling to hear the answer? If not, rewrite it or cut it.
 - **Cause and effect in words.** Say what happens and why ("Scoop them up... and any oxygen they make goes with
   them"), not just facts side by side.
 - **Answer the viewer's obvious worry.** If a fact raises a natural question ("will that affect my air?"), ask it

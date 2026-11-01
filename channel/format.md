@@ -54,7 +54,10 @@ Example (Dark Oxygen): *"Atlas is running out of oxygen, in the one place where 
 ## Clarity rules (from the Dark Oxygen rewrites)
 
 12. **Answer every question right away.** A question in the narration is followed by "Because..." and a one-line
-    answer, then the explanation. Never make viewers connect the dots themselves.
+    answer, then the explanation. Never make viewers connect the dots themselves. **And every question must be
+    genuinely fascinating** (creator, 2026-11-01): the thing a curious viewer would blurt out ("Could I survive
+    falling in?"), never a textbook prompt ("What is an event horizon?"). If nobody would stop scrolling for the
+    answer, rewrite or cut it.
 13. **Answer the obvious worry honestly** (e.g. "Will that change your air? No. That's made up top.").
 14. **Say cause and effect out loud** ("Scoop them up... and any oxygen they make goes with them").
 15. **Name the key thing once** with its real name (e.g. "polymetallic nodules") and show a close-up or zoom-in of it.
