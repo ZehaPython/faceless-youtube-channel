@@ -23,6 +23,9 @@ Example (Dark Oxygen): *"Atlas is running out of oxygen, in the one place where 
 
 1. **Cold open in danger (0–2 s).** Start mid-action: something is wrong *right now* (a cracking diving bell,
    a star about to blow, gravity pulling him in). No "hello", no setup. Motion and sound in the first frame.
+   **The first 20 seconds decide everything** (Supernova retention, 2026-11-01: half the viewers left by 0:20,
+   then almost everyone stayed to 1:39). No textbook definitions before 0:20 ("What is a star? A ball of gas...");
+   open with the most surprising fact or the danger, and keep a new surprise every ~5 s until 0:20.
 2. **Atlas is in the scene, not at his desk.** He simply *is* there (no travel explanation needed). He wears
    gear that fits the place (a brass diving helmet, a patched space suit) over his cardigan and scarf.
 3. **Real stakes for Atlas.** Every episode puts him at risk: oxygen running out, crushing pressure, radiation,
