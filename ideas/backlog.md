@@ -20,7 +20,7 @@ After Dark Oxygen the channel pivots to well-known space topics (big search dema
 | # | Idea | Slug | Status | Atlas's danger / hook |
 |---|------|------|--------|------|
 | 3 | Supernovae: how stars live and die | supernova | **Video v1 made** (`production/supernova/final/supernova-v1.mp4`, 1:39), awaiting creator review | On a planet next to a star about to explode; neutrinos arrive first as the warning |
-| 4 | Black holes: what they are and where they come from | black-holes | **Video v1 made** (`production/black-holes/final/black-holes-v1.mp4`, 1:17), awaiting creator review | Drifting toward a newborn black hole; must stay outside the event horizon |
+| 4 | Black holes: what they are and where they come from | black-holes | **Published** 2026-11-01 ([link](https://www.youtube.com/shorts/gdp3HaR2Kgc), `published/black-holes.md`) | Drifting toward a newborn black hole; must stay outside the event horizon |
 | 5 | The Dark Forest: why the universe might be silent on purpose | dark-forest | Researched (`research/dark-forest.md`) | Picks up an alien signal: answer or stay silent? We already "shouted" in 1974 (Arecibo) |
 | 6 | Neutron stars and magnetars: a teaspoon weighs a mountain | neutron-stars | Idea | The gravity and magnetism nearly rip Atlas's gear apart |
 | 7 | Dark matter: 85% of matter is missing | dark-matter | Idea | Atlas can't see or touch the thing holding the galaxy together |
