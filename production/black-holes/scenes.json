@@ -66,7 +66,8 @@
    "video_model": "kling-video/v3.0/pro/image-to-video",
    "prompt": "Near a black hole in dark space: a long glowing ribbon of orange gas is being stretched thin like a strand of spaghetti as it spirals toward a black sphere with a thin ring of light in the upper part of the frame. Atlas floats small in the lower right corner, seen from behind and to the side, watching it; the head of a small grey cat in a tiny fishbowl helmet peeks out of his satchel. Only one raccoon and one cat in the whole image.",
    "character": true,
-   "motion": "The glowing ribbon of gas stretches longer and thinner like spaghetti as it spirals into the black hole. Atlas watches in alarm from far away; the cat ducks back into the satchel. Slow push-in toward the ribbon."
+   "motion": "The glowing ribbon of orange gas is pulled toward the black hole, stretching longer and thinner like spaghetti and wrapping around it in a tight spiral until its end disappears into the black edge. Atlas watches, still. Slow push-in.",
+   "end_prompt": "(edit of the start frame: the ribbon stretched thin, spiralling into the black edge; scenes/12-end-edit.prompt.txt)"
   },
   {
    "id": "13-thrusters",
@@ -83,8 +84,8 @@
    "video_model": "kling-video/v3.0/pro/image-to-video",
    "character": true,
    "prompt": "Atlas floating small in dark space next to a black hole with a thin ring of bent light, glowing orange and blue gas around it, stars all around.",
-   "end_prompt": "A vast field of thousands of stars and glowing pink and blue nebulae in deep space, seen from very far away; in the centre a tiny bright dot where the black hole was. No character visible.",
-   "motion": "One continuous smooth zoom-out: the camera pulls back and back, away from the black hole and tiny Atlas, until they are lost among thousands of stars and glowing nebulae."
+   "end_prompt": "(crop of the Milky Way spiral arm, see 14b)",
+   "motion": "One continuous smooth zoom-out: the camera pulls back and back, away from the black hole and tiny Atlas, until they are lost among the countless stars and glowing pink and blue clouds of a galaxy's spiral arm."
   },
   {
    "id": "14b-zoom-out-galaxy",
@@ -93,7 +94,8 @@
    "video_model": "kling-video/v3.0/pro/image-to-video",
    "prompt": "A vast field of thousands of stars and glowing pink and blue nebulae in deep space, seen from very far away.",
    "end_prompt": "Our Milky Way galaxy seen face-on from far above, scientifically accurate: a barred spiral galaxy with a glowing yellow-white central bulge and bar, two major spiral arms and several smaller arms, blue-white star clouds, pink star-forming regions and dark dust lanes along the arms, filling the frame against black space.",
-   "motion": "The camera keeps pulling back smoothly: the star field shrinks into the spiral arms of a huge barred spiral galaxy, until the whole Milky Way fills the frame, turning very slowly."
+   "motion": "One continuous smooth zoom-out: the camera keeps pulling straight back from the spiral arm, revealing more and more of the galaxy, until the whole barred spiral Milky Way fills the frame. Steady, smooth, no cuts.",
+   "image": "scenes/14b-zoom-out-galaxy.png"
   },
   {
    "id": "14c-sagittarius",
